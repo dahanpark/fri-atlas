@@ -1,0 +1,8 @@
+.env
+.env.*
+!.env.example
+_workspace/
+node_modules/
+*.log
+.tmp/
+artifacts/

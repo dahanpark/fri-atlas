@@ -1,5 +1,7 @@
 # FRI ATLAS
 
+[FRI ATLAS 사용하기](https://dahanpark.github.io/fri-atlas/) · [공개 GitHub 저장소](https://github.com/dahanpark/fri-atlas)
+
 무료 세계 지도에서 골프장 후보를 발견하고 비교하는 buildless HTML 앱. 한국 기본, Frutiger Aero와 에디토리얼 디자인, TOP10/TOP20 선택(기본10)을 제공합니다.
 
 ## 실행
@@ -21,7 +23,9 @@ Node.js가 있으면 `node server.mjs` 후 http://127.0.0.1:4173 에 접속합�
 
 ## 배포
 
-2026-10-22 기준 구문검사 3개 파일과 핵심 테스트8/8을 통과했습니다. 독립 최종 검토 중이며 공개 GitHub·Pages 배포는 미확인입니다.
+2026-10-22 기준 구문검사 3개 파일·핵심 테스트8/8 통과, 독립 전체 검토 결함0건·9.5/10을 확인했습니다. 공개 저장소와 Pages HTTP200, [배포 워크플로 성공](https://github.com/dahanpark/fri-atlas/actions/runs/39688000196)을 확인했으며 배포 커밋은 `c6643c0b5f8dcf9bcf75b6396cedd2183b101f87`입니다. 공개 핵심5개 파일의 SHA-256이 로컬과 일치했습니다.
+
+실제 브라우저에서 한국 공식 카탈로그4곳, 제주 Overpass46후보·20곳 표시, OSM 관심목록의 새로고침 복원과 지역 간 비교 유지를 확인했습니다. Overpass는 첫 요청502 후 버튼 재조회에 성공했으며 외부 서버 부하로 일시 실패할 수 있습니다.
 
 공개 GitHub 저장소의 `main`에 push하면 `.github/workflows/pages.yml`이 검사 후 `dist/`만 Pages로 배포합니다. GitHub Settings → Pages의 source를 GitHub Actions로 설정해야 합니다. 소스 업데이트 배포이며 사용자 탐색 결과는 GitHub에 자동 업로드하지 않습니다. HTML 보고서는 개인 컴퓨터에 저장됩니다. API 키/메일 비밀번호는 포함하지 않습니다.
 

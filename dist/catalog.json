@@ -1,0 +1,478 @@
+{
+  "schema_version": "1.0",
+  "checked_at": "2026-10-21T15:30:23+09:00",
+  "coverage": {
+    "label": "한국 4개 골프장 공식 공개자료 초기 카탈로그",
+    "complete": false,
+    "count": 4
+  },
+  "courses": [
+    {
+      "id": "official:haevichi-seoul",
+      "name": {
+        "value": "해비치 컨트리클럽 서울",
+        "source_url": "https://www.haevichi.com/ccseoul/ko/club-guide/price-guide",
+        "checked_at": "2026-10-21T15:30:23+09:00",
+        "status": "verified"
+      },
+      "region": {
+        "value": "경기 남양주",
+        "source_url": "https://www.haevichi.com/ccseoul/ko/club-guide/price-guide",
+        "checked_at": "2026-10-21T15:30:23+09:00",
+        "status": "verified"
+      },
+      "website": {
+        "value": "https://www.haevichi.com/ccseoul/ko",
+        "source_url": "https://www.haevichi.com/ccseoul/ko/club-guide/price-guide",
+        "checked_at": "2026-10-21T15:30:23+09:00",
+        "status": "verified"
+      },
+      "address": {
+        "value": "경기도 남양주시 화도읍 재재기로 190번길 160",
+        "source_url": "https://www.haevichi.com/ccseoul/ko/club-guide/price-guide",
+        "checked_at": "2026-10-21T15:30:23+09:00",
+        "status": "verified"
+      },
+      "holes": {
+        "value": 18,
+        "source_url": "https://www.haevichi.com/ko/mobile/html/business/business_05.html",
+        "checked_at": "2026-10-21T15:30:23+09:00",
+        "status": "verified"
+      },
+      "phone": {
+        "value": "031-579-3000",
+        "source_url": "https://www.haevichi.com/ccseoul/ko/club-guide/price-guide",
+        "checked_at": "2026-10-21T15:30:23+09:00",
+        "status": "verified"
+      },
+      "fee_guide": {
+        "value": "https://www.haevichi.com/ccseoul/ko/club-guide/price-guide",
+        "source_url": "https://www.haevichi.com/ccseoul/ko/club-guide/price-guide",
+        "checked_at": "2026-10-21T15:30:23+09:00",
+        "status": "verified"
+      },
+      "green_fees": [
+        {
+          "currency": "KRW",
+          "per": "person",
+          "holes": 18,
+          "weekday": 270000,
+          "weekend": 320000,
+          "condition": "공식 비회원 일반요금. 예약일·시간에 따른 실제 결제액은 재확인",
+          "source_url": "https://www.haevichi.com/ccseoul/ko/club-guide/price-guide",
+          "checked_at": "2026-10-21T15:30:23+09:00",
+          "status": "source-reported",
+          "live_quote": false
+        }
+      ],
+      "cart_fee": {
+        "value": 130000,
+        "source_url": "https://www.haevichi.com/ccseoul/ko/club-guide/price-guide",
+        "checked_at": "2026-10-21T15:30:23+09:00",
+        "status": "verified",
+        "currency": "KRW",
+        "per": null,
+        "unit": null,
+        "holes": null,
+        "unit_status": "missing"
+      },
+      "caddie_fee": {
+        "value": 170000,
+        "source_url": "https://www.haevichi.com/ccseoul/ko/club-guide/price-guide",
+        "checked_at": "2026-10-21T15:30:23+09:00",
+        "status": "verified",
+        "currency": "KRW",
+        "per": null,
+        "unit": null,
+        "holes": null,
+        "unit_status": "missing"
+      },
+      "coordinates": {
+        "value": {
+          "lat": 37.61343,
+          "lon": 127.2977
+        },
+        "source_url": "https://mapcarta.com/W642736074",
+        "checked_at": "2026-10-21T15:32:58+09:00",
+        "status": "source-reported",
+        "provider": "OSM way 642736074 via Mapcarta",
+        "osm_url": "https://www.openstreetmap.org/way/642736074",
+        "precision_note": "출처가 제공한 골프장 대표점. 입구 또는 클럽하우스 위치를 보장하지 않음"
+      },
+      "booking": {
+        "url": null,
+        "status": "missing",
+        "checked_at": "2026-10-21T15:30:23+09:00",
+        "label": "정확한 예약 URL 미확인 — 홈페이지에서 예약 메뉴 이용",
+        "source_url": "https://www.haevichi.com/ccseoul/ko"
+      },
+      "photos": [],
+      "photo_note": "재배포 허가를 확인하지 않아 사진 미포함",
+      "rating": null,
+      "review_count": null,
+      "notes": [
+        "검증된 소규모 초기 카탈로그이며 전세계 전체 목록 또는 품질 순위가 아님",
+        "요금은 공개 안내를 확인한 참고값이며 실시간 티타임 견적이 아님",
+        "좌표는 위치출처의 대표점이며 공식요금 검증과 별도임"
+      ]
+    },
+    {
+      "id": "official:ananti-chord",
+      "name": {
+        "value": "아난티 코드 골프클럽",
+        "source_url": "https://ananti.kr/ja/chord/golf-zelkova",
+        "checked_at": "2026-10-21T15:30:23+09:00",
+        "status": "verified"
+      },
+      "region": {
+        "value": "경기 가평",
+        "source_url": "https://ananti.kr/ja/chord/golf-zelkova",
+        "checked_at": "2026-10-21T15:30:23+09:00",
+        "status": "verified"
+      },
+      "website": {
+        "value": "https://ananti.kr/ko/chord/CD0205",
+        "source_url": "https://ananti.kr/ja/chord/golf-zelkova",
+        "checked_at": "2026-10-21T15:30:23+09:00",
+        "status": "verified"
+      },
+      "address": {
+        "value": "경기도 가평군 설악면 유명로 961-34",
+        "source_url": "https://ananti.kr/ja/chord/golf-zelkova",
+        "checked_at": "2026-10-21T15:30:23+09:00",
+        "status": "verified"
+      },
+      "holes": {
+        "value": 27,
+        "source_url": "https://ananti.kr/ja/chord/golf-zelkova",
+        "checked_at": "2026-10-21T15:30:23+09:00",
+        "status": "verified"
+      },
+      "phone": {
+        "value": "1877-8448",
+        "source_url": "https://ananti.kr/ja/chord/golf-zelkova",
+        "checked_at": "2026-10-21T15:30:23+09:00",
+        "status": "verified"
+      },
+      "fee_guide": {
+        "value": null,
+        "source_url": "https://ananti.kr/ko/chord/CD0205",
+        "checked_at": "2026-10-21T15:30:23+09:00",
+        "status": "missing"
+      },
+      "green_fees": [],
+      "cart_fee": {
+        "value": null,
+        "source_url": null,
+        "checked_at": "2026-10-21T15:30:23+09:00",
+        "status": "missing",
+        "currency": "KRW",
+        "per": null,
+        "unit": null,
+        "holes": null,
+        "unit_status": "missing"
+      },
+      "caddie_fee": {
+        "value": null,
+        "source_url": null,
+        "checked_at": "2026-10-21T15:30:23+09:00",
+        "status": "missing",
+        "currency": "KRW",
+        "per": null,
+        "unit": null,
+        "holes": null,
+        "unit_status": "missing"
+      },
+      "coordinates": {
+        "value": {
+          "lat": 37.62045,
+          "lon": 127.48174
+        },
+        "source_url": "https://mapcarta.com/W524471443",
+        "checked_at": "2026-10-21T15:32:58+09:00",
+        "status": "source-reported",
+        "provider": "OSM way 524471443 via Mapcarta",
+        "osm_url": "https://www.openstreetmap.org/way/524471443",
+        "precision_note": "출처가 제공한 골프장 대표점. 입구 또는 클럽하우스 위치를 보장하지 않음"
+      },
+      "booking": {
+        "url": null,
+        "status": "missing",
+        "checked_at": "2026-10-21T15:30:23+09:00",
+        "label": "정확한 예약 URL 미확인 — 홈페이지에서 예약 메뉴 이용",
+        "source_url": "https://ananti.kr/ko/chord/CD0205"
+      },
+      "photos": [],
+      "photo_note": "재배포 허가를 확인하지 않아 사진 미포함",
+      "rating": null,
+      "review_count": null,
+      "notes": [
+        "검증된 소규모 초기 카탈로그이며 전세계 전체 목록 또는 품질 순위가 아님",
+        "요금은 공개 안내를 확인한 참고값이며 실시간 티타임 견적이 아님",
+        "좌표는 위치출처의 대표점이며 공식요금 검증과 별도임"
+      ]
+    },
+    {
+      "id": "official:haevichi-jeju",
+      "name": {
+        "value": "해비치 컨트리클럽 제주",
+        "source_url": "https://www.haevichi.com/ccjeju/ko/customer/faq/2/ccjeju/total",
+        "checked_at": "2026-10-21T15:30:23+09:00",
+        "status": "verified"
+      },
+      "region": {
+        "value": "제주 서귀포",
+        "source_url": "https://www.haevichi.com/ccjeju/ko/customer/faq/2/ccjeju/total",
+        "checked_at": "2026-10-21T15:30:23+09:00",
+        "status": "verified"
+      },
+      "website": {
+        "value": "https://www.haevichi.com/ccjeju/ko",
+        "source_url": "https://www.haevichi.com/ccjeju/ko/customer/faq/2/ccjeju/total",
+        "checked_at": "2026-10-21T15:30:23+09:00",
+        "status": "verified"
+      },
+      "address": {
+        "value": "제주도 서귀포시 남원읍 원님로 399번길 319",
+        "source_url": "https://www.haevichi.com/ccjeju/ko/customer/faq/2/ccjeju/total",
+        "checked_at": "2026-10-21T15:30:23+09:00",
+        "status": "verified"
+      },
+      "holes": {
+        "value": 36,
+        "source_url": "https://www.haevichi.com/corp/ko/ourbrand/country-club/country-club-jeju",
+        "checked_at": "2026-10-21T15:30:23+09:00",
+        "status": "verified"
+      },
+      "phone": {
+        "value": "064-766-6200",
+        "source_url": "https://www.haevichi.com/ccjeju/ko/customer/faq/2/ccjeju/total",
+        "checked_at": "2026-10-21T15:30:23+09:00",
+        "status": "verified"
+      },
+      "fee_guide": {
+        "value": "https://www.haevichi.com/ccjeju/ko/customer/faq/2/ccjeju/total",
+        "source_url": "https://www.haevichi.com/ccjeju/ko/customer/faq/2/ccjeju/total",
+        "checked_at": "2026-10-21T15:30:23+09:00",
+        "status": "verified"
+      },
+      "green_fees": [
+        {
+          "currency": "KRW",
+          "per": "person",
+          "holes": 18,
+          "weekday": 200000,
+          "weekend": 240000,
+          "condition": "회원제 일반 그린피 / FAQ 안내",
+          "source_url": "https://www.haevichi.com/ccjeju/ko/customer/faq/2/ccjeju/total",
+          "checked_at": "2026-10-21T15:30:23+09:00",
+          "status": "source-reported",
+          "live_quote": false
+        },
+        {
+          "currency": "KRW",
+          "per": "person",
+          "holes": 18,
+          "weekday": 170000,
+          "weekend": 210000,
+          "condition": "대중형 일반 그린피 / FAQ 안내",
+          "source_url": "https://www.haevichi.com/ccjeju/ko/customer/faq/2/ccjeju/total",
+          "checked_at": "2026-10-21T15:30:23+09:00",
+          "status": "source-reported",
+          "live_quote": false
+        },
+        {
+          "currency": "KRW",
+          "per": "person",
+          "holes": 18,
+          "weekday": 180000,
+          "weekend": 220000,
+          "condition": "대중형 셀프라운드(노캐디) / FAQ 안내",
+          "source_url": "https://www.haevichi.com/ccjeju/ko/customer/faq/2/ccjeju/total",
+          "checked_at": "2026-10-21T15:30:23+09:00",
+          "status": "source-reported",
+          "live_quote": false
+        }
+      ],
+      "cart_fee": {
+        "value": null,
+        "source_url": null,
+        "checked_at": "2026-10-21T15:30:23+09:00",
+        "status": "missing",
+        "currency": "KRW",
+        "per": null,
+        "unit": null,
+        "holes": null,
+        "unit_status": "missing"
+      },
+      "caddie_fee": {
+        "value": null,
+        "source_url": null,
+        "checked_at": "2026-10-21T15:30:23+09:00",
+        "status": "missing",
+        "currency": "KRW",
+        "per": null,
+        "unit": null,
+        "holes": null,
+        "unit_status": "missing"
+      },
+      "coordinates": {
+        "value": {
+          "lat": 33.3589911,
+          "lon": 126.7244129
+        },
+        "source_url": "https://www.visitjeju.net/en/detail/view?contentsid=CNTS_000000000018860&menuId=DOM_000001817000000006",
+        "checked_at": "2026-10-21T15:32:58+09:00",
+        "status": "source-reported",
+        "provider": "제주관광공사 VisitJeju",
+        "osm_url": null,
+        "precision_note": "출처가 제공한 골프장 대표점. 입구 또는 클럽하우스 위치를 보장하지 않음"
+      },
+      "booking": {
+        "url": null,
+        "status": "missing",
+        "checked_at": "2026-10-21T15:30:23+09:00",
+        "label": "정확한 예약 URL 미확인 — 홈페이지에서 예약 메뉴 이용",
+        "source_url": "https://www.haevichi.com/ccjeju/ko"
+      },
+      "photos": [],
+      "photo_note": "재배포 허가를 확인하지 않아 사진 미포함",
+      "rating": null,
+      "review_count": null,
+      "notes": [
+        "검증된 소규모 초기 카탈로그이며 전세계 전체 목록 또는 품질 순위가 아님",
+        "요금은 공개 안내를 확인한 참고값이며 실시간 티타임 견적이 아님",
+        "좌표는 위치출처의 대표점이며 공식요금 검증과 별도임"
+      ]
+    },
+    {
+      "id": "official:ananti-jeju",
+      "name": {
+        "value": "아난티 제주 골프클럽",
+        "source_url": "https://ananti.kr/ko/jeju/golfclub/information",
+        "checked_at": "2026-10-21T15:30:23+09:00",
+        "status": "verified"
+      },
+      "region": {
+        "value": "제주 제주시",
+        "source_url": "https://ananti.kr/ko/jeju/golfclub/information",
+        "checked_at": "2026-10-21T15:30:23+09:00",
+        "status": "verified"
+      },
+      "website": {
+        "value": "https://ananti.kr/ko/jeju/golfclub/information",
+        "source_url": "https://ananti.kr/ko/jeju/golfclub/information",
+        "checked_at": "2026-10-21T15:30:23+09:00",
+        "status": "verified"
+      },
+      "address": {
+        "value": "제주특별자치도 제주시 구좌읍 선유로 445-55",
+        "source_url": "https://ananti.kr/ko/jeju/golfclub/information",
+        "checked_at": "2026-10-21T15:30:23+09:00",
+        "status": "verified"
+      },
+      "holes": {
+        "value": 36,
+        "source_url": "https://ananti.kr/ko/jeju/specialOffer/D070103?pageId=2772",
+        "checked_at": "2026-10-21T15:30:23+09:00",
+        "status": "verified"
+      },
+      "phone": {
+        "value": "064-786-3800",
+        "source_url": "https://ananti.kr/ko/jeju/golfclub/information",
+        "checked_at": "2026-10-21T15:30:23+09:00",
+        "status": "verified"
+      },
+      "fee_guide": {
+        "value": "https://ananti.kr/ko/jeju/golfclub/information",
+        "source_url": "https://ananti.kr/ko/jeju/golfclub/information",
+        "checked_at": "2026-10-21T15:30:23+09:00",
+        "status": "verified"
+      },
+      "green_fees": [
+        {
+          "currency": "KRW",
+          "per": "person",
+          "holes": 18,
+          "weekday": 170000,
+          "weekend": 210000,
+          "condition": "김녕코스 18홀 / 주말·공휴일·회사 지정휴일 주말 적용",
+          "source_url": "https://ananti.kr/ko/jeju/golfclub/information",
+          "checked_at": "2026-10-21T15:30:23+09:00",
+          "status": "source-reported",
+          "live_quote": false,
+          "valid_from": "2026-08-18",
+          "effective_basis": "접수일"
+        },
+        {
+          "currency": "KRW",
+          "per": "person",
+          "holes": 18,
+          "weekday": 231000,
+          "weekend": 271000,
+          "condition": "한라코스 18홀 / 회원제 제세공과금 포함",
+          "source_url": "https://ananti.kr/ko/jeju/golfclub/information",
+          "checked_at": "2026-10-21T15:30:23+09:00",
+          "status": "source-reported",
+          "live_quote": false,
+          "valid_from": "2026-08-18",
+          "effective_basis": "접수일"
+        }
+      ],
+      "cart_fee": {
+        "value": 100000,
+        "source_url": "https://ananti.kr/ko/jeju/golfclub/information",
+        "checked_at": "2026-10-21T15:30:23+09:00",
+        "status": "verified",
+        "currency": "KRW",
+        "per": "team",
+        "unit": "team",
+        "holes": 18,
+        "unit_status": "source-reported",
+        "valid_from": "2026-08-18",
+        "effective_basis": "접수일"
+      },
+      "caddie_fee": {
+        "value": 150000,
+        "source_url": "https://ananti.kr/ko/jeju/golfclub/information",
+        "checked_at": "2026-10-21T15:30:23+09:00",
+        "status": "verified",
+        "currency": "KRW",
+        "per": null,
+        "unit": null,
+        "holes": 18,
+        "unit_status": "missing",
+        "valid_from": "2026-08-18",
+        "effective_basis": "접수일"
+      },
+      "coordinates": {
+        "value": {
+          "lat": 33.5199412,
+          "lon": 126.7412425
+        },
+        "source_url": "https://www.visitjeju.net/en/detail/view?contentsid=CNTS_000000000001530",
+        "checked_at": "2026-10-21T15:32:58+09:00",
+        "status": "source-reported",
+        "provider": "제주관광공사 VisitJeju",
+        "osm_url": null,
+        "precision_note": "출처가 제공한 골프장 대표점. 입구 또는 클럽하우스 위치를 보장하지 않음"
+      },
+      "booking": {
+        "url": null,
+        "status": "missing",
+        "checked_at": "2026-10-21T15:30:23+09:00",
+        "label": "정확한 예약 URL 미확인 — 홈페이지에서 예약 메뉴 이용",
+        "source_url": "https://ananti.kr/ko/jeju/golfclub/information"
+      },
+      "photos": [],
+      "photo_note": "재배포 허가를 확인하지 않아 사진 미포함",
+      "rating": null,
+      "review_count": null,
+      "notes": [
+        "검증된 소규모 초기 카탈로그이며 전세계 전체 목록 또는 품질 순위가 아님",
+        "요금은 공개 안내를 확인한 참고값이며 실시간 티타임 견적이 아님",
+        "좌표는 위치출처의 대표점이며 공식요금 검증과 별도임"
+      ]
+    }
+  ]
+}

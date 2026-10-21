@@ -1,0 +1,4 @@
+interface:
+  display_name: "FRI ATLAS"
+  short_description: "골프 지도 탐색·근거 기반 비교·HTML 공유 프로그램 제작 및 검증"
+  default_prompt: "$fri-atlas를 사용해 현재 FRI ATLAS 요구를 반영하고 데이터·화면·공개 배포를 검증해줘."

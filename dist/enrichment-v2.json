@@ -1,0 +1,317 @@
+{
+  "schema_version": "2.0",
+  "verified_at": "2026-10-22T03:56:56Z",
+  "scope": "공개자료 부분 enrichment 샘플. 전국 자료 아님. NAVER 개별값 미확보.",
+  "courses": [
+    {
+      "id": "official:ananti-chord",
+      "name": "아난티 코드 골프클럽",
+      "naver_rating": {
+        "value": null,
+        "status": "not_connected",
+        "verified_at": "2026-10-22T03:56:56Z",
+        "source_url": null
+      },
+      "naver_review_count": {
+        "value": null,
+        "status": "not_connected",
+        "verified_at": "2026-10-22T03:56:56Z",
+        "source_url": null
+      },
+      "naver_review_summary": null,
+      "other_review": {
+        "provider": "보이스캐디X",
+        "source_url": "https://www.voicecaddiex.com/courses/82031002",
+        "verified_at": "2026-10-22T03:56:56Z",
+        "kind": "provider_ai_summary_and_public_reviews",
+        "pros": [
+          "시설이 깔끔함",
+          "친절한 운영"
+        ],
+        "cons": [
+          "잔디 보수 언급",
+          "그린 모래 언급"
+        ],
+        "sample_count": null,
+        "representative": false,
+        "naver": false,
+        "rights": {
+          "full_text_republish": false,
+          "photo_reuse": false,
+          "summary": "short_editorial_summary_only",
+          "exportAllowed": false
+        },
+        "conditions": "일부 공개후기 관찰. 전체 이용자 총평·현재 잔디 상태 보장 아님"
+      },
+      "official_guide": {
+        "url": "https://ananti.kr/ko/chord/golfclub/information",
+        "verified_at": "2026-10-22T03:56:56Z",
+        "label": "공식 예약 안내",
+        "api": false
+      },
+      "fee": {
+        "weekday": 260000,
+        "weekend": 290000,
+        "currency": "KRW",
+        "membership": "비회원 일반",
+        "holes": 18,
+        "caddie": 150000,
+        "cart": 110000,
+        "source_url": "https://ananti.kr/ko/chord/golfclub/information",
+        "valid_from": "2024-01-01",
+        "verified_at": "2026-10-22T03:56:56Z",
+        "live_quote": false,
+        "team_fee_unit_verified": false,
+        "conditions": "현재 공개 공식요금안내. 실제 예약가격·팀비 과금단위 재확인"
+      },
+      "thumbnail": null
+    },
+    {
+      "id": "official:ananti-joongang",
+      "name": "아난티 중앙 골프클럽",
+      "naver_rating": {
+        "value": null,
+        "status": "not_connected",
+        "verified_at": "2026-10-22T03:56:56Z",
+        "source_url": null
+      },
+      "naver_review_count": {
+        "value": null,
+        "status": "not_connected",
+        "verified_at": "2026-10-22T03:56:56Z",
+        "source_url": null
+      },
+      "naver_review_summary": null,
+      "other_review": {
+        "provider": "SBS골프",
+        "source_url": "https://golf.sbs.co.kr/review/course/692988ebd47743ec8a1e786c",
+        "verified_at": "2026-10-22T03:56:56Z",
+        "kind": "single_public_user_review",
+        "pros": [
+          "숲 경관을 즐김",
+          "3코스 선택 가능"
+        ],
+        "cons": [
+          "블라인드 홀 주의",
+          "워터해저드 주의"
+        ],
+        "sample_count": 1,
+        "representative": false,
+        "naver": false,
+        "rights": {
+          "full_text_republish": false,
+          "photo_reuse": false,
+          "summary": "short_editorial_summary_only",
+          "exportAllowed": false
+        },
+        "conditions": "일부 공개후기 관찰. 전체 이용자 총평·현재 잔디 상태 보장 아님"
+      },
+      "thumbnail": null
+    },
+    {
+      "id": "course:bearsbest-cheongna",
+      "name": "베어즈베스트 청라 골프클럽",
+      "naver_rating": {
+        "value": null,
+        "status": "not_connected",
+        "verified_at": "2026-10-22T03:56:56Z",
+        "source_url": null
+      },
+      "naver_review_count": {
+        "value": null,
+        "status": "not_connected",
+        "verified_at": "2026-10-22T03:56:56Z",
+        "source_url": null
+      },
+      "naver_review_summary": null,
+      "other_review": {
+        "provider": "프라임골프투어",
+        "source_url": "https://primegolftour.blog/",
+        "verified_at": "2026-10-22T03:56:56Z",
+        "kind": "author_visit_report_2026_08_25",
+        "pros": [
+          "설계 재미 호평"
+        ],
+        "cons": [
+          "여름 잔디 아쉬움"
+        ],
+        "sample_count": null,
+        "representative": false,
+        "naver": false,
+        "rights": {
+          "full_text_republish": false,
+          "photo_reuse": false,
+          "summary": "short_editorial_summary_only",
+          "exportAllowed": false
+        },
+        "conditions": "일부 공개후기 관찰. 전체 이용자 총평·현재 잔디 상태 보장 아님"
+      },
+      "thumbnail": null,
+      "conditions": "블로그 개별 포스트 URL 미확보. 자동 앱채택 대상 아님"
+    },
+    {
+      "id": "course:pinx",
+      "name": "핀크스 골프클럽",
+      "naver_rating": {
+        "value": null,
+        "status": "not_connected",
+        "verified_at": "2026-10-22T03:56:56Z",
+        "source_url": null
+      },
+      "naver_review_count": {
+        "value": null,
+        "status": "not_connected",
+        "verified_at": "2026-10-22T03:56:56Z",
+        "source_url": null
+      },
+      "naver_review_summary": null,
+      "other_review": null,
+      "review_source_attempt": {
+        "url": "https://golf.sbs.co.kr/review/course/692988ead47743e3e0172daf",
+        "verified_at": "2026-10-22T03:56:56Z",
+        "result": "title_only"
+      },
+      "thumbnail": null
+    }
+  ],
+  "licensed_photos": [
+    {
+      "course_name": "의령친환경골프장",
+      "exact_match_required": true,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/%EC%9D%98%EB%A0%B9%EC%B9%9C%ED%99%98%EA%B2%BD%EA%B3%A8%ED%94%84%EC%9E%A5_%EC%A0%84%EA%B2%BD.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:의령친환경골프장_전경.jpg",
+      "author": "Hahaha2337",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "photographed_at": "2021-10-28",
+      "verified_at": "2026-10-22T03:56:56Z",
+      "visual_verified": false,
+      "rights": {
+        "reuse": true,
+        "exportAllowed": true,
+        "attribution_required": true,
+        "change_notice_required": true,
+        "share_alike_on_adaptation": true
+      },
+      "camera_coordinates": {
+        "lat": 35.293122,
+        "lon": 128.292039,
+        "note": "촬영자 위치. 코스 대표점/입구로 사용 금지"
+      },
+      "credit": "의령친환경골프장 전경 · Hahaha2337 · CC BY-SA 4.0"
+    }
+  ],
+  "routing": {
+    "provider": "Kakao Map external web",
+    "api_connected": false,
+    "pattern": "https://map.kakao.com/link/by/car/{originName},{originLat},{originLon}/{courseName},{courseLat},{courseLon}",
+    "source_url": "https://apis.map.kakao.com/web/guide/",
+    "origins": [
+      "서울시청",
+      "부산시청"
+    ],
+    "road_distance": null,
+    "duration": null,
+    "verified_at": "2026-10-22T03:56:56Z",
+    "conditions": "외부길찾기 링크이며 앱 내 숫자 자동수신 아님. 실제 출발지좌표를 검증후 사용."
+  },
+  "booking": {
+    "xgolf": {
+      "url": "https://www.xgolf.com/",
+      "label": "XGOLF 열기",
+      "api": false,
+      "course_specific": false,
+      "access": "403",
+      "verified_at": "2026-10-22T03:56:56Z"
+    },
+    "teescanner": {
+      "url": "https://www.teescanner.com/",
+      "label": "티스캐너 열기",
+      "api": false,
+      "course_specific": false,
+      "access": "JS shell only",
+      "verified_at": "2026-10-22T03:56:56Z"
+    },
+    "kakao": {
+      "url": "https://biz.kakao.golf/",
+      "alliance": "https://biz.kakao.golf/alliance",
+      "label": "카카오골프 열기",
+      "api": false,
+      "course_specific": false,
+      "verified_at": "2026-10-22T03:56:56Z"
+    },
+    "lotte_skyhill": {
+      "url": "https://www.lotteskyhill.com/reservation?lang=en",
+      "label": "공식 통합예약(제주 선택)",
+      "api": false,
+      "course_specific": false,
+      "guide": "https://www.lotteskyhill.com/reservation/reservation-guide",
+      "verified_at": "2026-10-22T03:56:56Z"
+    }
+  },
+  "position_audits": [
+    {
+      "id": "official:haevichi-jeju",
+      "name": "해비치 컨트리클럽 제주",
+      "lat": 33.358839,
+      "lon": 126.728099,
+      "address": "제주특별자치도 서귀포시 남원읍 원님로399번길 319",
+      "source_url": "https://www.haevichi.com/ccjeju/ko/location",
+      "script_url": "https://www.haevichi.com/ko/pc/js/cc_sub/map_jeju.js?v=2",
+      "public_map_response": "https://www.haevichi.com/getMap.do",
+      "request_parameters": "mapUrl=ccjeju&lang=ko",
+      "map_link": "https://naver.me/xwmhNyxR",
+      "verified_at": "2026-10-22T04:01:46Z",
+      "status": "official_site_map_point",
+      "entrance_verified": false,
+      "supersedes": {
+        "lat": 33.3589911,
+        "lon": 126.7244129,
+        "reason": "이전 VisitJeju 좌표는 이름과 주소만으로 OSM 코스 동질성을 확인하지 못함. 공식 지도응답으로 교체하되 실제 입구 및 OSM명부 공간충돌은 별도 확인"
+      }
+    },
+    {
+      "id": "official:haevichi-seoul",
+      "name": "해비치 컨트리클럽 서울",
+      "lat": 37.61344,
+      "lon": 127.28962,
+      "address": "경기도 남양주시 화도읍 재재기로 190번길 160",
+      "source_url": "https://www.haevichi.com/ccseoul/ko/location",
+      "public_map_response": "https://www.haevichi.com/getMap.do",
+      "request_parameters": "mapUrl=ccseoul&lang=ko",
+      "verified_at": "2026-10-22T04:01:46Z",
+      "status": "official_site_map_point",
+      "entrance_verified": false,
+      "supersedes": {
+        "lat": 37.61343,
+        "lon": 127.2977,
+        "reason": "이전 OSM via Mapcarta 코스 대표점과 공식 지도점은 다름. 코스 중심과 출입구 혼동 금지"
+      }
+    },
+    {
+      "id": "official:ananti-chord",
+      "name": "아난티 코드 골프클럽",
+      "lat": 37.62045,
+      "lon": 127.48174,
+      "source_url": "https://mapcarta.com/W524471443",
+      "osm_url": "https://www.openstreetmap.org/way/524471443",
+      "verified_at": "2026-10-22T04:01:46Z",
+      "status": "osm_derived_named_course_point",
+      "entrance_verified": false,
+      "identity_evidence": "원문 명칭 Ananti Chord Golf Club, leisure=golf_course, 홈페이지ananti.kr. 공식 주소와 개별 입구 연결은 미검증"
+    },
+    {
+      "id": "official:ananti-jeju",
+      "name": "아난티 제주",
+      "lat": 33.5199412,
+      "lon": 126.7412425,
+      "source_url": "https://www.visitjeju.net/en/detail/view?contentsid=CNTS_000000000001530",
+      "verified_at": "2026-10-22T04:01:46Z",
+      "status": "tourism_named_course_point",
+      "entrance_verified": false,
+      "identity_evidence": "VisitJeju 제목AnantiJeju·주소445-55Seonyu-ro·본문SaintFourGolfCourse. 공식ananti.kr/ko/board/times/414는세인트포를아난티제주클럽으로리노베이션계획명시",
+      "rename_source": "https://ananti.kr/ko/board/times/414",
+      "coordinates_course_geometry_verified": false
+    }
+  ]
+}

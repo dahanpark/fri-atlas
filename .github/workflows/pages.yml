@@ -23,10 +23,9 @@ jobs:
           node-version: '22'
       - name: Check JavaScript syntax
         run: |
-          node --check dist/app.js
-          node --check dist/core.js
+          for file in dist/*.js; do node --check "$file"; done
           node --check server.mjs
-      - run: node --test tests/core.test.js
+      - run: node --test tests/core.test.js tests/v2.test.js
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

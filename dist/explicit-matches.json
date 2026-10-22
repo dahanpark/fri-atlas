@@ -1,0 +1,10 @@
+{
+  "checkedAt": "2026-10-22T04:05:00Z",
+  "matches": [
+    {"catalogId":"official:haevichi-seoul","osmId":"osm:way/642736074","basis":"기존 카탈로그 coordinates.osm_url과 원천 type/id의 정확한 일치","confidence":"explicit-source-id"},
+    {"catalogId":"official:ananti-chord","osmId":"osm:way/524471443","basis":"기존 카탈로그 coordinates.osm_url과 원천 type/id의 정확한 일치","confidence":"explicit-source-id"},
+    {"catalogId":"official:ananti-jeju","osmId":"osm:way/369959208","osmName":"세인트포 CC","basis":"아난티 공식 TIMES 414의 2022년 기록이 세인트포 골프장의 아난티 제주 리노베이션을 명시하며 한국지방세연구원 정책과제 2024-25 PDF 64쪽(인쇄46쪽)도 아난티(전 세인트포)라고 명시. 기존 VisitJeju 아난티 좌표 33.5199412,126.7412425와 원천 대표점 33.5202625,126.7378363가 같은 코스 부근이며 공식 아난티 주소 구좌읍 선유로445-55와 김녕 입지 확인. 이름 유사도 자동 병합이 아니라 구명칭 관계의 출처 확인에 따른 수동 매핑.","sourceUrls":["https://ananti.kr/ko/board/times/414","https://www.kilf.re.kr/cmm/fms/PDF.do?atchFileId=FILE_000000000011878&fileSn=0","https://ananti.kr/ko/jeju/journey/location","https://www.openstreetmap.org/way/369959208"],"confidence":"manual-documented-former-name","coordinatePolicy":"원천 중심좌표 유지, 클럽하우스/입구로 주장하지 않음"}
+  ],
+  "unresolved": [{"catalogId":"official:haevichi-jeju","reason":"기존 VisitJeju 좌표 최근접 원천은 이름 없는 node2975717086와 부영CC way582796107. 해비치 공식 주소 원님로399번길319와 동일 객체라는 근거가 없어 매핑하지 않음. 근접성으로 이름을 부여하지 않음."}],
+  "licensedPhotoMatch": {"osmId":"osm:way/645101379","osmName":"의령친환경골프장","basis":"사진 파일명과 원천 골프장 명칭 정확 일치; 별도 의령리온CC와 구분. 사진 촬영 좌표는 대표점 대체에 사용하지 않음.","sourceUrl":"https://commons.wikimedia.org/wiki/File:의령친환경골프장_전경.jpg","license":"CC BY-SA 4.0","author":"Hahaha2337","note":"사진 실제 표시·크레딧 검증은 구현 담당이 수행"}
+}

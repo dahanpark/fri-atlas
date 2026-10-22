@@ -1,0 +1,67 @@
+{
+  "schema_version": "3.0-research",
+  "verified_at": "2026-10-22T10:02:13Z",
+  "scope": "4개 코스 공식 공개요금 확인. 360도CC는 2026-10-19~25 한정표. 전국 전체요금 아님.",
+  "courses": [
+    {
+      "id": "osm:way/389428315",
+      "name": "곤지암GC",
+      "website": "https://www.konjiamgolfclub.co.kr/",
+      "address": "경기도 광주시 도척면 도척윗로 280",
+      "holes": 18,
+      "fee_guide": "https://www.konjiamgolfclub.co.kr/EnglshPop.dev",
+      "booking": {"url": "https://www.konjiamgolfclub.co.kr/", "label": "공식 홈페이지 예약 메뉴", "direct_booking_verified": false},
+      "fee": {"weekday": 280000, "weekend": 300000, "currency": "KRW", "membership": "비회원", "holes": 18, "per": "person", "caddie": 150000, "cart": 120000, "source_url": "https://www.konjiamgolfclub.co.kr/EnglshPop.dev", "verified_at": "2026-10-22T10:02:13Z", "valid_from": null, "valid_until": null, "live_quote": false, "team_fee_unit_verified": true, "conditions": "공식 영문 안내의 비회원 일반요금. 일반 4백1캐디 기준이며 기능(외국어·레슨) 캐디 170,000원. 1팀1카트1캐디 운영. 시행일·공휴일 별도가 미명시. 날짜별 예약확정가 아님."},
+      "green_fees": {"weekday": {"min": 280000, "max": 280000}, "weekend": {"min": 300000, "max": 300000}, "membership": "비회원", "basis": "18홀 1인", "holidays": "영문 요금표는 Weekend로 표시; 공휴일 동일여부 미확인"},
+      "caddie_fee": {"amount": 150000, "unit": "team", "variant": "일반 4백1캐디", "alternatives": [{"amount": 170000, "condition": "외국어·레슨 기능 캐디"}]},
+      "cart_fee": {"amount": 120000, "unit": "team"},
+      "evidence": [{"url": "https://www.konjiamgolfclub.co.kr/EnglshPop.dev", "kind": "official_fee_guide", "verified_at": "2026-10-22T10:02:13Z", "quote": "Weekday ... 280,000KWR / Weekend ... 300,000KWR", "summary": "비회원 주중28만원·주말30만원. 4Bags1Caddie15만원·카트12만원. 1Team1Cart1Guide 명시."}, {"url": "https://konjiamgolfclub.co.kr/", "kind": "official_homepage", "summary": "공식 푸터 주소 도척윗로280; 마운틴·레이크 코스. 웹검색 확인."}]
+    },
+    {
+      "id": "osm:way/546212852",
+      "name": "360도CC",
+      "website": "https://www.360cc.co.kr/",
+      "address": "경기도 여주시 강천면 부평로 609",
+      "holes": 18,
+      "fee_guide": "https://www.360cc.co.kr/use/charge.do",
+      "booking": {"url": "https://www.360cc.co.kr/mobile/reservation/real_reservation.do", "label": "공식 실시간 예약", "requires_login": true, "direct_booking_verified": true},
+      "fee": {"weekday": 170000, "weekday_max": 200000, "weekend": 230000, "weekend_max": 270000, "currency": "KRW", "membership": "비회원", "holes": 18, "per": "person", "caddie": 150000, "cart": 100000, "source_url": "https://www.360cc.co.kr/resource/file/UserFile/Event/EVENT/upload/EVENT_1_12864_0_0_2_2026100811.jpg", "verified_at": "2026-10-22T10:02:13Z", "valid_from": "2026-10-19", "valid_until": "2026-10-25", "live_quote": false, "team_fee_unit_verified": false, "conditions": "10/19~25·18홀·4인 기준표. 사이버회원 주중16~19만/주말22~26만에 비회원1만원 가산한 공개 비회원 범위. 홈페이지예약·최소 내장전일 가입 시 사이버가; 타업체예약은 비회원가. 3인 추가금 없음. 캐디15만원/팀 명시, 카트10만원은5인승1대 기준이며 팀당 문구 별도 미명시. 다른기간에는 이 가격을 적용할 수 없음."},
+      "green_fees": {"weekday": {"min": 170000, "max": 200000}, "weekend": {"min": 230000, "max": 270000}, "membership": "비회원", "basis": "18홀 1인·4인팀 기준", "valid_from": "2026-10-19", "valid_until": "2026-10-25", "calculation": "공식표 사이버회원가+비회원 가산10,000원", "cyber": {"weekday_min": 160000, "weekday_max": 190000, "weekend_min": 220000, "weekend_max": 260000}, "holidays": "해당 주간 공휴일 별도 없음; 다른 기간표와 혼합하지 않음", "time_rows": [{"time": "06:30~06:52", "weekday": 160000, "friday": 170000, "saturday": 250000, "sunday": 240000}, {"time": "07:00~07:52", "weekday": 170000, "friday": 180000, "saturday": 260000, "sunday": 250000}, {"time": "08:00~08:37", "weekday": 180000, "friday": 190000, "saturday": 260000, "sunday": 250000}, {"time": "11:22~11:52", "weekday": 190000, "friday": 190000, "saturday": 250000, "sunday": 230000}, {"time": "12:00~12:52", "weekday": 180000, "friday": 190000, "saturday": 250000, "sunday": 230000}, {"time": "13:00~13:45", "weekday": 170000, "friday": 180000, "saturday": 240000, "sunday": 220000}], "time_rows_basis": "사이버회원가 원표. 비회원 각행+10,000원."},
+      "caddie_fee": {"amount": 150000, "unit": "team", "alternatives": [{"amount": 170000, "condition": "리무진카트4인플레이"}, {"amount": 230000, "condition": "리무진카트5인플레이"}]},
+      "cart_fee": {"amount": 100000, "unit": "5인승1대", "alternatives": [{"amount": 220000, "condition": "리무진1대"}]},
+      "evidence": [{"url": "https://www.360cc.co.kr/resource/file/UserFile/Event/EVENT/upload/EVENT_1_12864_0_0_2_2026100811.jpg", "kind": "official_monthly_fee_image_visually_read", "verified_at": "2026-10-22T10:02:13Z", "published_at": "2026-09-11", "quote": "비회원 1만원 추가", "summary": "공식 이벤트목록→10월그린피안내 클릭→본문이미지 브라우저 시각판독. 이미지 내 10/19~25 표 6시간대. 원이미지와 제목링크썸네일은 다른파일."}, {"url": "https://www.360cc.co.kr/use/charge.do", "kind": "official_fee_guide", "verified_at": "2026-10-22T10:02:13Z", "summary": "일반캐디15만원/팀·5인승카트10만원, 리무진카트22만원. 회원가적용은공홈예약·내장전일가입한정."}, {"url": "https://www.360cc.co.kr/course/courseIntro.do", "kind": "official_course", "summary": "18홀·파72 및 부평로609 주소"}]
+    },
+    {
+      "id": "osm:way/524449266",
+      "name": "가평베네스트GC",
+      "website": "https://www.benestgolf.com/reve/pc/main.do",
+      "address": "경기도 가평군 상면 둔덕말길 232",
+      "holes": 27,
+      "fee_guide": "https://www.benestgolf.com/reve/pc/gp-club-info/green-fee.do",
+      "booking": {"url": "https://www.benestgolf.com/reve/pc/reserve/choice.do", "label": "공식 통합예약", "requires_login": true, "direct_booking_verified": true},
+      "fee": {"weekday": 250000, "weekend": 310000, "currency": "KRW", "membership": "비회원", "holes": 18, "per": "person", "caddie": 160000, "cart": 100000, "source_url": "https://www.benestgolf.com/reve/pc/gp-club-info/green-fee.do", "verified_at": "2026-10-22T10:02:13Z", "valid_from": null, "valid_until": null, "live_quote": false, "team_fee_unit_verified": false, "conditions": "공식 비회원 이용요금. 휴일은 토·일,법정공휴일(대체포함),노동절,임시공휴일. 일반카트기준캐디16만·카트10만(팀/인당 문구 이 표 미명시). 리무진캐디17만·카트22만,선착순배정. 시행일 미표시·예약확정가 아님. 코스규모27홀, 요금계산은18홀."},
+      "green_fees": {"weekday": {"min": 250000, "max": 250000}, "weekend": {"min": 310000, "max": 310000}, "membership": "비회원", "basis": "18홀 1인", "holidays": "토일·법정공휴일·대체공휴일·임시공휴일·노동절"},
+      "caddie_fee": {"amount": 160000, "unit": "표에 미명시", "alternatives": [{"amount": 170000, "condition": "리무진카트"}]},
+      "cart_fee": {"amount": 100000, "unit": "일반카트·과금단위 표에 미명시", "alternatives": [{"amount": 220000, "condition": "리무진카트·선착순"}]},
+      "evidence": [{"url": "https://www.benestgolf.com/reve/pc/gp-club-info/green-fee.do", "kind": "official_fee_guide", "verified_at": "2026-10-22T10:02:13Z", "quote": "비회원 250,000 310,000", "summary": "공식 평일25·휴일31만원,일반캐디16·카트10만원. 팀/인당단위는보수적으로미확인."}, {"url": "https://www.benestgolf.com/reve/pc/gp-club-intro/direction.do", "kind": "official_location", "summary": "가평베네스트GC와둔덕말길232공식주소 일치"}]
+    },
+    {
+      "id": "osm:way/130539444",
+      "name": "가야CC",
+      "website": "https://gayacc.com/",
+      "address": "경상남도 김해시 인제로 502",
+      "holes": null,
+      "fee_guide": "https://gayacc.com/useguide.php?location=03",
+      "booking": {"url": "https://gayacc.com/useguide.php?location=01", "label": "공식 예약안내", "direct_booking_verified": false},
+      "fee": {"weekday": 210000, "weekend": 250000, "currency": "KRW", "membership": "회원제코스 비회원", "holes": 18, "per": "person", "caddie": 150000, "cart": 100000, "source_url": "https://gayacc.com/sub_contents/sub6_2_new.html", "verified_at": "2026-10-22T10:02:13Z", "valid_from": null, "valid_until": null, "live_quote": false, "team_fee_unit_verified": false, "conditions": "회원제코스18홀 비회원 정상표. 퍼블릭9홀요금과별개. 그린피세금포함표·카트VAT포함팀당10만원. 일반캐디15만원(표에팀/인당미명시),외국어캐디20만원사전문의. 시행일·공휴일동일여부미명시. 프로모션·예약확정가아님."},
+      "green_fees": {"weekday": {"min": 210000, "max": 210000}, "weekend": {"min": 250000, "max": 250000}, "membership": "회원제코스 비회원", "basis": "18홀 1인·제세금포함", "holidays": "표는 주말로만 표시; 별도공휴일금액미확인"},
+      "caddie_fee": {"amount": 150000, "unit": "표에 미명시", "alternatives": [{"amount": 200000, "condition": "외국어가능캐디·예약실사전문의"}]},
+      "cart_fee": {"amount": 100000, "unit": "team", "tax": "VAT포함", "alternatives": [{"amount": 200000, "condition": "리무진5인승·1일3팀선착순"}]},
+      "evidence": [{"url": "https://gayacc.com/sub_contents/sub6_2_new.html", "kind": "official_fee_guide_embedded_iframe", "verified_at": "2026-10-22T10:02:13Z", "quote": "캐디피: 150,000원", "summary": "공식메인→요금안내location03→iframe원문. 18홀비회원평일21만·주말25만. 카트10만원팀당,캐디15만원."}, {"url": "https://gayacc.com/useguide.php?location=03", "kind": "official_location", "summary": "가야개발(주)·김해시인제로502공식푸터"}]
+    }
+  ],
+  "unverified": [
+    {"id": "osm:way/398942362", "name": "그린힐CC", "website": "https://www.shinangolf.com/club/greenhillcc", "green_fees": null, "caddie_fee": null, "cart_fee": null, "reason": "공식사이트 WAF403 명시차단. 우회하지 않음. 제3자 블로그·예약서비스에 금액은 있으나 공식원문미확인으로금액미채택.", "verified_at": "2026-10-22T10:02:13Z"},
+    {"id": "osm:way/1213004518", "name": "감곡CC", "website": "https://www.gamgokcc.com/", "green_fees": null, "caddie_fee": null, "cart_fee": null, "reason": "공식사이트403 Forbidden. 제3자3월/4월표는현재요금이아니며미채택.", "verified_at": "2026-10-22T10:02:13Z"}
+  ]
+}

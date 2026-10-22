@@ -1,0 +1,573 @@
+{
+  "schemaVersion": 3,
+  "checkedAt": "2026-10-23",
+  "scope": "코스별 공개 자료를 직접 확인한 일부 표본. 전국 총평·품질순위 아님.",
+  "courses": [
+    {
+      "id": "osm:way/389428315",
+      "name": "곤지암GC",
+      "overview": {
+        "sentences": [
+          "마운틴과 레이크 두 코스를 갖춘 18홀 골프장입니다.",
+          "산세와 호수 경관을 함께 즐길 수 있습니다.",
+          "공식 안내상 3~4인 팀으로 운영되며 예약과 복장 규정을 확인해야 합니다."
+        ],
+        "basis": "공식소개요약",
+        "sources": [
+          {
+            "url": "https://konjiamgolfclub.co.kr/",
+            "title": "곤지암 골프클럽 공식 홈페이지",
+            "checkedAt": "2026-10-22"
+          },
+          {
+            "url": "https://www.konjiamgolfclub.co.kr/EnglshPop.dev",
+            "title": "Konjiam Golf Club Guide",
+            "checkedAt": "2026-10-22"
+          },
+          {
+            "url": "https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=fa1b4f22-982d-40bc-ac5c-c92690dce5e9",
+            "title": "한국관광공사 곤지암 골프클럽",
+            "checkedAt": "2026-10-22"
+          }
+        ]
+      },
+      "reviewSummary": {
+        "verified": true,
+        "provider": "올댓골프리뷰 / Daum",
+        "kind": "public_blog_samples",
+        "sample_count": 2,
+        "representative": false,
+        "pros": [
+          "잔디·조경 관리 호평",
+          "넓은 시야·세심한 서비스"
+        ],
+        "cons": [
+          "비회원 비용 부담",
+          "당시 복장 규정 엄격"
+        ],
+        "sources": [
+          {
+            "url": "https://v.daum.net/v/cDaIhXqUM4",
+            "title": "어느 골퍼의 솔직한 골프장 리뷰 - 곤지암 CC",
+            "date": "2020-05-16",
+            "dateType": "라운드일",
+            "provider": "올댓골프리뷰 / Daum",
+            "sample_count": 1,
+            "readScope": "공개 본문 전체",
+            "pros": [
+              "양잔디·그린 관리 호평",
+              "시설과 안내 친절"
+            ],
+            "cons": [
+              "당시 재킷 착용 요구",
+              "음식 가격 부담"
+            ]
+          },
+          {
+            "url": "https://v.daum.net/v/8JLY1QcpxQ",
+            "title": "어느 골퍼의 솔직한 후기 - 8월의 곤지암 GC 골프클럽",
+            "date": "2022-08-06",
+            "dateType": "라운드일",
+            "provider": "올댓골프리뷰 / Daum",
+            "sample_count": 1,
+            "readScope": "공개 본문 전체",
+            "pros": [
+              "넓은 페어웨이 시야",
+              "우천 후에도 관리 호평"
+            ],
+            "cons": [
+              "비회원 그린피 부담",
+              "라커 벤치 간격 아쉬움"
+            ]
+          }
+        ],
+        "conditions": "2020·2022년 방문기 2편이며 같은 제공처·동일 리뷰어로 보이는 재방문 기록입니다. 독립된 2명의 평가나 현재 상태를 뜻하지 않습니다. 당시 가격·복장 규정은 현재 공식 안내와 다를 수 있습니다.",
+        "verified_at": "2026-10-22",
+        "exportAllowed": false
+      },
+      "photos": [
+        {
+          "courseId": "osm:way/389428315",
+          "courseName": "곤지암GC",
+          "url": "https://tong.visitkorea.or.kr/cms/resource/67/1956867_image2_1.jpg",
+          "sourceUrl": "https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=fa1b4f22-982d-40bc-ac5c-c92690dce5e9",
+          "discoveryUrl": "https://leports.blogsailing.com/4148",
+          "title": "경기_광주_곤지암 컨트리클럽01",
+          "author": "한국관광공사 TourAPI 제공",
+          "rights": "TourAPI 공공누리 1·3유형 제공 범위. 개별 유형 미확인, 출처표시·변경금지 조건으로 보수적 적용",
+          "license": "공공누리 1·3유형 제공자료 / 개별 유형 미확인",
+          "licenseUrl": "https://www.data.go.kr/data/15101578/openapi.do?recommendDataYn=Y",
+          "change": "원본 구도 유지, 자르기·색보정 없음, contain 축소표시",
+          "exportAllowed": false,
+          "renderVerified": false,
+          "checkedAt": "2026-10-22",
+          "adoption": "화면 원격참조 채택 · 실사 렌더 검증 전 · HTML 이미지 반출 제외",
+          "kind": "tourapi_reference",
+          "displayAllowed": true,
+          "courseMatched": true
+        }
+      ]
+    },
+    {
+      "id": "osm:way/398942362",
+      "name": "그린힐CC",
+      "overview": {
+        "sentences": [
+          "천덕봉 중턱의 숲에 둘러싸인 회원제 18홀 코스입니다.",
+          "공식 소개는 넓은 페어웨이와 언듈레이션을 특징으로 꼽습니다.",
+          "동곤지암IC를 이용할 수 있으며 클럽하우스·레스토랑·연회실을 갖추고 있습니다."
+        ],
+        "basis": "공식소개요약",
+        "sources": [
+          {
+            "url": "https://www.shinan.co.kr/business/golf/greenhillcc",
+            "title": "신안그룹 그린힐CC 공식 소개",
+            "checkedAt": "2026-10-22"
+          }
+        ]
+      },
+      "reviewSummary": {
+        "verified": true,
+        "provider": "구름사이 / 그린라이트",
+        "kind": "public_blog_samples",
+        "sample_count": 2,
+        "representative": false,
+        "pros": [
+          "클럽하우스 동선 편리",
+          "야간 특가 이용 경험"
+        ],
+        "cons": [
+          "증설 공사 영향 지적",
+          "야간 조명 아쉬움"
+        ],
+        "sources": [
+          {
+            "url": "https://betweencloud.tistory.com/349",
+            "title": "서초에서 40분, 그린힐CC 3부 야간 조인 라운딩 후기",
+            "date": "2026-08-24",
+            "dateType": "게시일 / 방문 2026-08-20",
+            "provider": "구름사이 / Tistory",
+            "sample_count": 1,
+            "readScope": "공개 본문 전체",
+            "pros": [
+              "이동 동선 편리",
+              "할인 조인 비용 만족"
+            ],
+            "cons": [
+              "증설·일부 비포장",
+              "야간 조명과 날벌레"
+            ]
+          },
+          {
+            "url": "https://www.greenlight.co.kr/m/main_community/detail?community_id=9639",
+            "title": "그린힐CC 야간 라운딩 공개 커뮤니티 후기",
+            "date": "2024-07-01",
+            "dateType": "게시일",
+            "provider": "그린라이트 / 무조건페이드",
+            "sample_count": 1,
+            "readScope": "공개 본문 전체 / 댓글 미수집",
+            "pros": [],
+            "cons": [
+              "당시 증설 공사 혼잡",
+              "기존 홀 변경 아쉬움"
+            ]
+          }
+        ],
+        "conditions": "서로 다른 작성자의 2024·2026년 방문 경험 2건입니다. 장점은 주로 2026년 후기 1건에 근거합니다. 공사·조명 상태와 할인요금은 방문 시점의 경험으로 현재 상태를 보장하지 않습니다.",
+        "verified_at": "2026-10-22",
+        "exportAllowed": false
+      },
+      "photos": [
+        {
+          "courseId": "osm:way/398942362",
+          "courseName": "그린힐CC",
+          "url": "https://tong.visitkorea.or.kr/cms/resource/74/1956874_image2_1.jpg",
+          "sourceUrl": "https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=cc8f7094-3c80-44c3-9a9d-ae8bc7d795c0",
+          "discoveryUrl": "https://ontrip.kr/travel-guides/details/577646",
+          "title": "그린힐 컨트리클럽 TourAPI 대표사진",
+          "author": "한국관광공사 TourAPI 제공",
+          "rights": "TourAPI 공공누리 1·3유형 제공 범위. 개별 유형 미확인, 출처표시·변경금지 조건으로 보수적 적용",
+          "license": "공공누리 1·3유형 제공자료 / 개별 유형 미확인",
+          "licenseUrl": "https://www.data.go.kr/data/15101578/openapi.do?recommendDataYn=Y",
+          "change": "원본 구도 유지, 자르기·색보정 없음, contain 축소표시",
+          "exportAllowed": false,
+          "renderVerified": false,
+          "checkedAt": "2026-10-22",
+          "adoption": "화면 원격참조 채택 · 실사 렌더 검증 전 · HTML 이미지 반출 제외",
+          "kind": "tourapi_reference",
+          "displayAllowed": true,
+          "courseMatched": true
+        }
+      ],
+      "basic_info": {
+        "verified": true,
+        "name": "그린힐CC",
+        "address": "경기도 광주시 곤지암읍 내선길 176",
+        "holes": 18,
+        "membership": "회원제",
+        "website": "https://www.shinan.co.kr/business/golf/greenhillcc",
+        "source_url": "https://www.shinan.co.kr/business/golf/greenhillcc",
+        "checked_at": "2026-10-22",
+        "scope": "공식 소개 기본정보만 확인 · 요금 미확인"
+      },
+      "reference_fees": {
+        "provider": "한국관광공사",
+        "kind": "public-tourism-reference",
+        "sourceUrl": "https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=cc8f7094-3c80-44c3-9a9d-ae8bc7d795c0",
+        "checkedAt": "2026-10-22",
+        "currency": "KRW",
+        "weekday": 195000,
+        "weekend": 270000,
+        "caddie": 150000,
+        "cart": 100000,
+        "holes": null,
+        "per": null,
+        "validFrom": null,
+        "condition": "비회원 관광공사 안내가. 적용 기준일·요금 홀수·과금단위 미표기. 수시변동하므로 예약 전 골프장 확인. 확정요금·가격정렬·총액계산에 사용하지 않음."
+      }
+    },
+    {
+      "id": "osm:way/546212852",
+      "name": "360도CC",
+      "overview": {
+        "sentences": [
+          "여주에 위치한 파72·18홀 코스로 IN과 OUT으로 구성됩니다.",
+          "산줄기와 어우러진 자연친화적 조경을 공식 콘셉트로 삼고 있습니다.",
+          "공식 잔디 안내는 그린 벤트그라스, 티 켄터키블루그라스, 페어웨이·러프 안양중지로 구분합니다."
+        ],
+        "basis": "공식소개요약",
+        "sources": [
+          {
+            "url": "https://www.360cc.co.kr/club/intro.do",
+            "title": "360도CC 공식 소개",
+            "checkedAt": "2026-10-22"
+          },
+          {
+            "url": "https://www.360cc.co.kr/course/courseIntro.do",
+            "title": "360도CC 공식 18홀 코스안내",
+            "checkedAt": "2026-10-22"
+          },
+          {
+            "url": "https://www.360cc.co.kr/course/grass.do",
+            "title": "360도CC 공식 잔디정보",
+            "checkedAt": "2026-10-22"
+          }
+        ]
+      },
+      "reviewSummary": {
+        "verified": true,
+        "provider": "보리아빠 이야기 / 빡구의 낭만골프",
+        "kind": "public_blog_samples",
+        "sample_count": 2,
+        "representative": false,
+        "pros": [
+          "페어웨이 관리 호평",
+          "공략 선택의 재미"
+        ],
+        "cons": [
+          "단차 그린 거리감 주의",
+          "강풍 시 난도 상승"
+        ],
+        "sources": [
+          {
+            "url": "https://borifather1.tistory.com/363?category=1194462",
+            "title": "여주 360도CC 후기, 어렵지만 재미있었던 난이도 최상 코스",
+            "date": "2026-08-28",
+            "dateType": "게시일",
+            "provider": "보리아빠 이야기 / Tistory",
+            "sample_count": 1,
+            "readScope": "공개 본문 전체",
+            "pros": [
+              "잔디 관리에 만족",
+              "다양한 공략 재미"
+            ],
+            "cons": [
+              "페어웨이 경사 부담",
+              "2단 그린 거리감 어려움"
+            ]
+          },
+          {
+            "url": "https://bbakgoo.tistory.com/234?category=1249160",
+            "title": "강풍과 빛 속의 전략적인 플레이 – 360도CC in-out 코스 라운드 후기",
+            "date": "2025-10-01",
+            "dateType": "게시일 / 방문 2025-09-23",
+            "provider": "빡구의 낭만골프 / Tistory",
+            "sample_count": 1,
+            "readScope": "공개 본문 전체",
+            "pros": [
+              "페어웨이 관리 만족",
+              "티박스 정돈 호평"
+            ],
+            "cons": [
+              "강풍 시 샷 흔들림",
+              "단단한 그린 거리 조절"
+            ]
+          }
+        ],
+        "conditions": "서로 다른 작성자의 2025·2026년 후기 2편입니다. 그린 난도에 대한 체감은 서로 다릅니다. 강풍·잔디·그린 상태는 방문일 환경이며 전체 이용자를 대표하지 않습니다.",
+        "verified_at": "2026-10-22",
+        "exportAllowed": false
+      },
+      "photos": [
+        {
+          "courseId": "osm:way/546212852",
+          "courseName": "360도CC",
+          "url": "https://tong.visitkorea.or.kr/cms/resource/28/2781828_image2_1.jpeg",
+          "sourceUrl": "https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=11a0108f-f4de-488c-b089-8114c7e09465",
+          "discoveryUrl": "https://ontrip.kr/travel-guides/details/2781685",
+          "title": "360도 컨트리클럽 TourAPI 대표사진",
+          "author": "한국관광공사 TourAPI 제공",
+          "rights": "TourAPI 공공누리 1·3유형 제공 범위. 개별 유형 미확인, 출처표시·변경금지 조건으로 보수적 적용",
+          "license": "공공누리 1·3유형 제공자료 / 개별 유형 미확인",
+          "licenseUrl": "https://www.data.go.kr/data/15101578/openapi.do?recommendDataYn=Y",
+          "change": "원본 구도 유지, 자르기·색보정 없음, contain 축소표시",
+          "exportAllowed": false,
+          "renderVerified": false,
+          "checkedAt": "2026-10-22",
+          "adoption": "화면 원격참조 채택 · 실사 렌더 검증 전 · HTML 이미지 반출 제외",
+          "kind": "tourapi_reference",
+          "displayAllowed": true,
+          "courseMatched": true
+        }
+      ]
+    },
+    {
+      "id": "osm:way/524449266",
+      "name": "가평베네스트GC",
+      "overview": {
+        "sentences": [
+          "메이플·파인·버치의 27홀로 구성된 잭 니클라우스 설계 코스입니다.",
+          "자연 지형을 살린 넓은 페어웨이와 벙커·연못이 특징입니다.",
+          "공식 코스 안내는 다양한 샷 선택과 그린 공략을 강조합니다."
+        ],
+        "basis": "공식소개요약",
+        "sources": [
+          {
+            "url": "https://www.benestgolf.com/reve/pc/gp-course/main.do",
+            "title": "가평베네스트 공식 코스안내",
+            "checkedAt": "2026-10-23"
+          }
+        ]
+      },
+      "reviewSummary": {
+        "verified": true,
+        "provider": "좋아하는거하며, 즐겁게! / Tistory",
+        "kind": "public_blog_samples",
+        "sample_count": 1,
+        "representative": false,
+        "pros": [
+          "잔디·페어웨이 관리 호평",
+          "클럽하우스 편의 호평"
+        ],
+        "cons": [
+          "그린 경사·퍼팅 난도"
+        ],
+        "sources": [
+          {
+            "url": "https://happy-ja.tistory.com/53",
+            "title": "가평베네스트GC 라운딩 후기 — 삼성 운영 & 완벽 관리",
+            "date": "2025-06-19",
+            "dateType": "게시일",
+            "provider": "좋아하는거하며, 즐겁게! / Tistory",
+            "sample_count": 1,
+            "readScope": "공개 본문 직접 확인",
+            "pros": [
+              "잔디·페어웨이 관리 호평",
+              "클럽하우스 편의 호평"
+            ],
+            "cons": [
+              "그린 경사·퍼팅 난도"
+            ]
+          }
+        ],
+        "conditions": "2025년 게시된 개인 방문기 1편. 방문일은 본문 미표기. 글에 다른 서비스 평가 재인용이 섞여 있으므로 해당 별점은 수집·순위화하지 않았습니다. 현재 상태 또는 전체 이용자 평가를 뜻하지 않습니다.",
+        "verified_at": "2026-10-23",
+        "exportAllowed": false
+      },
+      "photos": [
+        {
+          "courseId": "osm:way/524449266",
+          "courseName": "가평베네스트GC",
+          "url": "https://www.benestgolf.com/img/c_gp/Img_gp_intro03_01.jpg",
+          "sourceUrl": "https://www.benestgolf.com/reve/pc/gp-club-intro/album.do",
+          "title": "가평베네스트 공식 MAPLE 6번홀 앨범",
+          "author": "삼성물산 베네스트골프",
+          "kind": "official_course_image",
+          "rights": "공식 사이트 공개 이미지 원격 참조. 자유 재배포 라이선스 미확인. 출처 표시·원본 구도 유지·HTML 반출 제외.",
+          "license": "공식 웹 공개자료 / 별도 재배포 허락 미확인",
+          "licenseUrl": "https://www.benestgolf.com/reve/pc/gp-club-intro/album.do",
+          "change": "원본 구도 유지, 자르기·색보정 없음, contain 축소표시",
+          "exportAllowed": false,
+          "renderVerified": true,
+          "checkedAt": "2026-10-23",
+          "displayAllowed": true,
+          "courseMatched": true,
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "adoption": "공식 웹 원격참조 / 실제 이미지 시각 확인"
+        }
+      ]
+    },
+    {
+      "id": "osm:way/130539444",
+      "name": "가야CC",
+      "overview": {
+        "sentences": [
+          "김해 신어산 자락에서 1988년에 문을 연 골프장입니다.",
+          "관광공사 제공 소개에는 회원제 45홀과 퍼블릭 9홀의 여섯 코스가 안내돼 있습니다.",
+          "신어·낙동을 비롯해 코스별 지형과 분위기가 다릅니다."
+        ],
+        "basis": "관광공사제공소개요약",
+        "sources": [
+          {
+            "url": "https://ontrip.kr/travel-guides/details/130986",
+            "title": "한국관광공사 제공 가야컨트리클럽 소개 / onTrip",
+            "checkedAt": "2026-10-23"
+          },
+          {
+            "url": "https://www.gayacc.com/main_new.php",
+            "title": "가야컨트리클럽 공식 홈페이지",
+            "checkedAt": "2026-10-23"
+          }
+        ]
+      },
+      "reviewSummary": {
+        "verified": true,
+        "provider": "딜바다 골프포럼",
+        "kind": "public_blog_samples",
+        "sample_count": 1,
+        "representative": false,
+        "pros": [
+          "페어웨이·그린 관리 호평",
+          "긴 전장·다양한 클럽"
+        ],
+        "cons": [
+          "벙커 관리 아쉬움",
+          "캐디 응대 불만 사례"
+        ],
+        "sources": [
+          {
+            "url": "https://www.dealbada.com/bbs/board.php?bo_table=forum_golf&wr_id=1264556",
+            "title": "가야CC 간단 후기",
+            "date": "2025-05-08",
+            "dateType": "게시일",
+            "provider": "딜바다 골프포럼",
+            "sample_count": 1,
+            "readScope": "공개 본문 직접 확인",
+            "pros": [
+              "페어웨이·그린 관리 호평",
+              "긴 전장·다양한 클럽"
+            ],
+            "cons": [
+              "벙커 관리 아쉬움",
+              "캐디 응대 불만 사례"
+            ]
+          }
+        ],
+        "conditions": "2025년 연휴 김해·수로코스 방문기 본문 1편. 캐디 불만은 해당 방문 1회 경험이며 댓글에는 친절했다는 반대 경험도 있습니다. 전체 캐디 서비스나 현재 상태를 일반화하지 않습니다. 오래된 방문기 요금은 공식 현재 요금과 달라 채택하지 않았습니다.",
+        "verified_at": "2026-10-23",
+        "exportAllowed": false
+      },
+      "photos": [
+        {
+          "courseId": "osm:way/130539444",
+          "courseName": "가야CC",
+          "url": "https://www.gayacc.com/design_image/common/main_bg1.jpg",
+          "sourceUrl": "https://www.gayacc.com/main_new.php",
+          "title": "가야컨트리클럽 공식 메인 코스 전경",
+          "author": "가야컨트리클럽",
+          "kind": "official_course_image",
+          "rights": "공식 사이트 공개 이미지 원격 참조. 자유 재배포 라이선스 미확인. 출처 표시·원본 구도 유지·HTML 반출 제외.",
+          "license": "공식 웹 공개자료 / 별도 재배포 허락 미확인",
+          "licenseUrl": "https://www.gayacc.com/main_new.php",
+          "change": "원본 구도 유지, 자르기·색보정 없음, contain 축소표시",
+          "exportAllowed": false,
+          "renderVerified": true,
+          "checkedAt": "2026-10-23",
+          "displayAllowed": true,
+          "courseMatched": true,
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "adoption": "공식 웹 원격참조 / 실제 이미지 시각 확인"
+        }
+      ]
+    },
+    {
+      "id": "osm:way/524471443",
+      "name": "아난티 코드 골프클럽",
+      "overview": {
+        "sentences": [
+          "가평의 숲 지형을 살린 27홀 골프클럽입니다.",
+          "자작나무·느티나무·잣나무 코스를 갖추고 있습니다.",
+          "티와 그린의 고저차가 커 내리막 티샷과 계곡 공략이 특징입니다."
+        ],
+        "basis": "공식소개요약",
+        "sources": [
+          {
+            "url": "https://ananti.kr/ko/chord/CD0205",
+            "title": "아난티 코드 공식 골프클럽 코스안내",
+            "checkedAt": "2026-10-23"
+          }
+        ]
+      },
+      "photos": [
+        {
+          "courseId": "osm:way/524471443",
+          "courseName": "아난티 코드 골프클럽",
+          "url": "https://cdn.ananti.kr/plf/ui/img/golfclub/golfclub-birch-keyvisual-lg.jpg",
+          "sourceUrl": "https://ananti.kr/ko/chord/CD0205",
+          "title": "아난티 코드 자작나무 코스 공식 전경",
+          "author": "아난티",
+          "kind": "official_course_image",
+          "rights": "공식 사이트 공개 이미지 원격 참조. 자유 재배포 라이선스 미확인. 출처 표시·원본 구도 유지·HTML 반출 제외.",
+          "license": "공식 웹 공개자료 / 별도 재배포 허락 미확인",
+          "licenseUrl": "https://ananti.kr/ko/chord/CD0205",
+          "change": "원본 구도 유지, 자르기·색보정 없음, contain 축소표시",
+          "exportAllowed": false,
+          "renderVerified": true,
+          "checkedAt": "2026-10-23",
+          "displayAllowed": true,
+          "courseMatched": true,
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "adoption": "공식 웹 원격참조 / 실제 이미지 시각 확인"
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "url": "https://fromzenal.tistory.com/entry/360%EB%8F%84cc-%EB%9D%BC%EC%9A%B4%EB%93%9C-%ED%9B%84%EA%B8%B0?category=1169132",
+      "reason": "18홀 공식코스와 맞지 않는 45홀·마스터스C 문구가 섞여 코스 혼입 가능성으로 제외"
+    },
+    {
+      "url": "https://blog.naver.com/PostView.naver?blogId=mr_happykim&logNo=223764639245",
+      "reason": "검색결과 본문은 노출되나 직접 페이지 robots 차단. 원문 직접열람으로 집계하지 않음"
+    }
+  ],
+  "deferredPhotos": [
+    {
+      "course": "곤지암GC",
+      "sourceUrl": "https://konjiamgolfclub.co.kr/",
+      "reason": "공식 og:image 없음. 임의 공식 전경 재사용권 확인 안 됨"
+    },
+    {
+      "course": "그린힐CC",
+      "sourceUrl": "https://www.shinan.co.kr/business/golf/greenhillcc",
+      "url": "https://www.shinan.co.kr/assets/images/sub/business/golf_greenhillcc_img_01.jpg",
+      "reason": "코스실사 후보이나 All Rights Reserved. OG는 회사로고, 임의실사 재사용 보류"
+    },
+    {
+      "course": "그린힐CC",
+      "sourceUrl": "https://www.shinangolf.com/club/greenhillcc",
+      "url": "https://www.shinangolf.com/assets/images/common/og_img.jpg",
+      "reason": "골프장전용이 아닌 통합사이트 공통OG, 코스대표 실사로 채택 안 함"
+    },
+    {
+      "course": "360도CC",
+      "sourceUrl": "https://www.360cc.co.kr/main/mainPage.do",
+      "url": "https://360cc.co.kr/resource/assets/common/images/ogimage.png",
+      "reason": "공식OG존재 확인 및 CUA시각검증 결과 800x800 로고. 전경실사아님"
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "schemaVersion": 4,
+  "checkedAt": "2026-10-23",
+  "scope": "공식사진 4코스, 직접 읽은 공개 방문기 2코스 각1편. 전국 총평 아님. 확인되지 않은 숫자 평점 채택 없음.",
+  "courses": [
+    {
+      "id": "osm:way/524449266",
+      "name": "가평베네스트GC",
+      "overview": {
+        "sentences": [
+          "메이플·파인·버치의 27홀로 구성된 잭 니클라우스 설계 코스입니다.",
+          "자연 지형을 살린 넓은 페어웨이와 벙커·연못이 특징입니다.",
+          "공식 코스 안내는 다양한 샷 선택과 그린 공략을 강조합니다."
+        ],
+        "basis": "공식소개요약",
+        "sources": [
+          {
+            "url": "https://www.benestgolf.com/reve/pc/gp-course/main.do",
+            "title": "가평베네스트 공식 코스안내",
+            "checkedAt": "2026-10-23"
+          }
+        ]
+      },
+      "reviewSummary": {
+        "verified": true,
+        "provider": "좋아하는거하며, 즐겁게! / Tistory",
+        "kind": "public_blog_samples",
+        "sample_count": 1,
+        "representative": false,
+        "pros": [
+          "잔디·페어웨이 관리 호평",
+          "클럽하우스 편의 호평"
+        ],
+        "cons": [
+          "그린 경사·퍼팅 난도"
+        ],
+        "sources": [
+          {
+            "url": "https://happy-ja.tistory.com/53",
+            "title": "가평베네스트GC 라운딩 후기 — 삼성 운영 & 완벽 관리",
+            "date": "2025-06-19",
+            "dateType": "게시일",
+            "provider": "좋아하는거하며, 즐겁게! / Tistory",
+            "sample_count": 1,
+            "readScope": "공개 본문 직접 확인",
+            "pros": [
+              "잔디·페어웨이 관리 호평",
+              "클럽하우스 편의 호평"
+            ],
+            "cons": [
+              "그린 경사·퍼팅 난도"
+            ]
+          }
+        ],
+        "conditions": "2025년 게시된 개인 방문기 1편. 방문일은 본문 미표기. 글에 다른 서비스 평가 재인용이 섞여 있으므로 해당 별점은 수집·순위화하지 않았습니다. 현재 상태 또는 전체 이용자 평가를 뜻하지 않습니다.",
+        "verified_at": "2026-10-23",
+        "exportAllowed": false
+      },
+      "photos": [
+        {
+          "courseId": "osm:way/524449266",
+          "courseName": "가평베네스트GC",
+          "url": "https://www.benestgolf.com/img/c_gp/Img_gp_intro03_01.jpg",
+          "sourceUrl": "https://www.benestgolf.com/reve/pc/gp-club-intro/album.do",
+          "title": "가평베네스트 공식 MAPLE 6번홀 앨범",
+          "author": "삼성물산 베네스트골프",
+          "kind": "official_reference",
+          "rights": "공식 사이트 공개 이미지 원격 참조. 자유 재배포 라이선스 미확인. 출처 표시·원본 구도 유지·HTML 반출 제외.",
+          "license": "공식 웹 공개자료 / 별도 재배포 허락 미확인",
+          "licenseUrl": "https://www.benestgolf.com/reve/pc/gp-club-intro/album.do",
+          "change": "원본 구도 유지, 자르기·색보정 없음, contain 축소표시",
+          "exportAllowed": false,
+          "renderVerified": true,
+          "checkedAt": "2026-10-23",
+          "displayAllowed": true,
+          "courseMatched": true,
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "adoption": "공식 웹 원격참조 / 실제 이미지 시각 확인"
+        }
+      ]
+    },
+    {
+      "id": "osm:way/130539444",
+      "name": "가야CC",
+      "overview": {
+        "sentences": [
+          "김해 신어산 자락에서 1988년에 문을 연 골프장입니다.",
+          "관광공사 제공 소개에는 회원제 45홀과 퍼블릭 9홀의 여섯 코스가 안내돼 있습니다.",
+          "신어·낙동을 비롯해 코스별 지형과 분위기가 다릅니다."
+        ],
+        "basis": "관광공사제공소개요약",
+        "sources": [
+          {
+            "url": "https://ontrip.kr/travel-guides/details/130986",
+            "title": "한국관광공사 제공 가야컨트리클럽 소개 / onTrip",
+            "checkedAt": "2026-10-23"
+          },
+          {
+            "url": "https://www.gayacc.com/main_new.php",
+            "title": "가야컨트리클럽 공식 홈페이지",
+            "checkedAt": "2026-10-23"
+          }
+        ]
+      },
+      "reviewSummary": {
+        "verified": true,
+        "provider": "딜바다 골프포럼",
+        "kind": "public_blog_samples",
+        "sample_count": 1,
+        "representative": false,
+        "pros": [
+          "페어웨이·그린 관리 호평",
+          "긴 전장·다양한 클럽"
+        ],
+        "cons": [
+          "벙커 관리 아쉬움",
+          "캐디 응대 불만 사례"
+        ],
+        "sources": [
+          {
+            "url": "https://www.dealbada.com/bbs/board.php?bo_table=forum_golf&wr_id=1264556",
+            "title": "가야CC 간단 후기",
+            "date": "2025-05-08",
+            "dateType": "게시일",
+            "provider": "딜바다 골프포럼",
+            "sample_count": 1,
+            "readScope": "공개 본문 직접 확인",
+            "pros": [
+              "페어웨이·그린 관리 호평",
+              "긴 전장·다양한 클럽"
+            ],
+            "cons": [
+              "벙커 관리 아쉬움",
+              "캐디 응대 불만 사례"
+            ]
+          }
+        ],
+        "conditions": "2025년 연휴 김해·수로코스 방문기 본문 1편. 캐디 불만은 해당 방문 1회 경험이며 댓글에는 친절했다는 반대 경험도 있습니다. 전체 캐디 서비스나 현재 상태를 일반화하지 않습니다. 오래된 방문기 요금은 공식 현재 요금과 달라 채택하지 않았습니다.",
+        "verified_at": "2026-10-23",
+        "exportAllowed": false
+      },
+      "photos": [
+        {
+          "courseId": "osm:way/130539444",
+          "courseName": "가야CC",
+          "url": "https://www.gayacc.com/design_image/common/main_bg1.jpg",
+          "sourceUrl": "https://www.gayacc.com/main_new.php",
+          "title": "가야컨트리클럽 공식 메인 코스 전경",
+          "author": "가야컨트리클럽",
+          "kind": "official_reference",
+          "rights": "공식 사이트 공개 이미지 원격 참조. 자유 재배포 라이선스 미확인. 출처 표시·원본 구도 유지·HTML 반출 제외.",
+          "license": "공식 웹 공개자료 / 별도 재배포 허락 미확인",
+          "licenseUrl": "https://www.gayacc.com/main_new.php",
+          "change": "원본 구도 유지, 자르기·색보정 없음, contain 축소표시",
+          "exportAllowed": false,
+          "renderVerified": true,
+          "checkedAt": "2026-10-23",
+          "displayAllowed": true,
+          "courseMatched": true,
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "adoption": "공식 웹 원격참조 / 실제 이미지 시각 확인"
+        }
+      ]
+    },
+    {
+      "id": "official:ananti-chord",
+      "name": "아난티 코드 골프클럽",
+      "overview": {
+        "sentences": [
+          "가평의 숲 지형을 살린 27홀 골프클럽입니다.",
+          "자작나무·느티나무·잣나무 코스를 갖추고 있습니다.",
+          "티와 그린의 고저차가 커 내리막 티샷과 계곡 공략이 특징입니다."
+        ],
+        "basis": "공식소개요약",
+        "sources": [
+          {
+            "url": "https://ananti.kr/ko/chord/CD0205",
+            "title": "아난티 코드 공식 골프클럽 코스안내",
+            "checkedAt": "2026-10-23"
+          }
+        ]
+      },
+      "photos": [
+        {
+          "courseId": "official:ananti-chord",
+          "courseName": "아난티 코드 골프클럽",
+          "url": "https://cdn.ananti.kr/plf/ui/img/golfclub/golfclub-birch-keyvisual-lg.jpg",
+          "sourceUrl": "https://ananti.kr/ko/chord/CD0205",
+          "title": "아난티 코드 자작나무 코스 공식 전경",
+          "author": "아난티",
+          "kind": "official_reference",
+          "rights": "공식 사이트 공개 이미지 원격 참조. 자유 재배포 라이선스 미확인. 출처 표시·원본 구도 유지·HTML 반출 제외.",
+          "license": "공식 웹 공개자료 / 별도 재배포 허락 미확인",
+          "licenseUrl": "https://ananti.kr/ko/chord/CD0205",
+          "change": "원본 구도 유지, 자르기·색보정 없음, contain 축소표시",
+          "exportAllowed": false,
+          "renderVerified": true,
+          "checkedAt": "2026-10-23",
+          "displayAllowed": true,
+          "courseMatched": true,
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "adoption": "공식 웹 원격참조 / 실제 이미지 시각 확인"
+        }
+      ]
+    },
+    {
+      "id": "official:ananti-joongang",
+      "name": "아난티 중앙 골프클럽",
+      "overview": {
+        "sentences": [
+          "진천 산 능선에 자리한 27홀 골프클럽입니다.",
+          "마운틴·레이크·스카이 세 코스로 구성됩니다.",
+          "공식 마운틴 안내는 오르막 블라인드 홀과 방향성·벙커 공략을 강조합니다."
+        ],
+        "basis": "공식소개요약",
+        "sources": [
+          {
+            "url": "https://ananti.kr/ko/joongang/JOAN0101",
+            "title": "아난티 중앙 공식 코스안내",
+            "checkedAt": "2026-10-23"
+          }
+        ]
+      },
+      "photos": [
+        {
+          "courseId": "official:ananti-joongang",
+          "courseName": "아난티 중앙 골프클럽",
+          "url": "https://cdn.ananti.kr/plf/ui/img/joongang/golf-mountain-pc.jpg",
+          "sourceUrl": "https://ananti.kr/ko/joongang/JOAN0101",
+          "title": "아난티 중앙 마운틴 코스 공식 전경",
+          "author": "아난티",
+          "kind": "official_reference",
+          "rights": "공식 사이트 공개 이미지 원격 참조. 자유 재배포 라이선스 미확인. 출처 표시·원본 구도 유지·HTML 반출 제외.",
+          "license": "공식 웹 공개자료 / 별도 재배포 허락 미확인",
+          "licenseUrl": "https://ananti.kr/ko/joongang/JOAN0101",
+          "change": "원본 구도 유지, 자르기·색보정 없음, contain 축소표시",
+          "exportAllowed": false,
+          "renderVerified": true,
+          "checkedAt": "2026-10-23",
+          "displayAllowed": true,
+          "courseMatched": true,
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "adoption": "공식 웹 원격참조 / 실제 이미지 시각 확인"
+        }
+      ]
+    }
+  ],
+  "ratingSearch": {
+    "adopted": false,
+    "reason": "검색으로 확인한 숫자 중 출처·실사용자 표본이 불명확하거나 AI 분석점수 및 목록/상세 불일치. NAVER 실제 평점 검증 미완료.",
+    "rejected": [
+      {
+        "url": "https://www.fairwayscore.com/ko/courses/gyeonggi-gapyeong-beneseuteu",
+        "reason": "8.1/10 외부리뷰14개 AI분석·사용자리뷰0개. 직접 이용자별점 아님."
+      },
+      {
+        "url": "https://parkgolfcc.com/gapyeong-benest-country-club/",
+        "reason": "분류목록4.0/1549건과 상세5점 표시 불일치. 평점 출처·기준일 불명확."
+      }
+    ]
+  }
+}

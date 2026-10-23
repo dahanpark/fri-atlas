@@ -1,0 +1,267 @@
+{
+  "schemaVersion": 5,
+  "checkedAt": "2026-10-23",
+  "rankingGroup": "mk-2026-1000",
+  "group": {
+    "id": "mk-2026-1000",
+    "provider": "매일경제·한국리서치",
+    "label": "2026 MK 이용경험 조사평가",
+    "kind": "golfer_experience_survey_weighted_total",
+    "edition": 4,
+    "year": 2026,
+    "metric": "종합평가",
+    "scaleMin": 0,
+    "scaleMax": 1000,
+    "higherIsBetter": true,
+    "sampleCount": null,
+    "surveyTotalSampleCount": 2316,
+    "sampleScope": "2316명은 전체 조사 참여 골퍼 수이며 각 골프장의 평가자 수가 아닙니다. 코스별 표본수 미공개.",
+    "method": "구력 1년 이상·연간 국내 라운드 10회 이상 조건의 이용경험 심층 설문. 만족도·코스·안전·시설·식사·직원·캐디·편의·미관 등 10항목에 가중치를 적용한 1000점 평가.",
+    "methodSources": [
+      {
+        "url": "https://m.mk.co.kr/amp/12121129",
+        "title": "그린피·카트비 부담에 … 골퍼 절반 이상 불만",
+        "publishedAt": "2026-08-07",
+        "checkedAt": "2026-10-23"
+      },
+      {
+        "url": "https://m.mk.co.kr/amp/12107756",
+        "title": "골퍼의 선택 더 값져…명품 골프장 자부심",
+        "publishedAt": "2026-07-26",
+        "checkedAt": "2026-10-23"
+      }
+    ],
+    "limitations": "NAVER·Google 별점 또는 단순 방문자 평균이 아닙니다. 2026 발표시점의 조사평가이며 실시간 상태를 보장하지 않습니다. 회원제·대중제의 원 발표 순위는 별도입니다. 동일 2026 종합점수끼리만 수치 비교하며 2025·1인후기·다른 척도와 혼합하지 않습니다.",
+    "exportAllowed": false
+  },
+  "courses": [
+    {
+      "id": "osm:relation/9279333",
+      "name": "핀크스 GC",
+      "verified": true,
+      "group": "mk-2026-1000",
+      "score": 829.21,
+      "maxScore": 1000,
+      "year": 2026,
+      "provider": "매일경제·한국리서치",
+      "sourceUrl": "https://m.mk.co.kr/amp/12057033",
+      "publishedAt": "2026-05-25",
+      "checkedAt": "2026-10-23",
+      "reasons": [
+        "미관 86.07점·운영시설 85점",
+        "코스관리 83.21점"
+      ],
+      "reasonScope": null,
+      "category": "회원제",
+      "categoryNationalRank": 1,
+      "method": "구력 1년 이상·연간 국내 라운드 10회 이상 조건의 이용경험 심층 설문. 만족도·코스·안전·시설·식사·직원·캐디·편의·미관 등 10항목에 가중치를 적용한 1000점 평가.",
+      "methodSources": [
+        {
+          "url": "https://m.mk.co.kr/amp/12121129",
+          "title": "그린피·카트비 부담에 … 골퍼 절반 이상 불만",
+          "publishedAt": "2026-08-07",
+          "checkedAt": "2026-10-23"
+        },
+        {
+          "url": "https://m.mk.co.kr/amp/12107756",
+          "title": "골퍼의 선택 더 값져…명품 골프장 자부심",
+          "publishedAt": "2026-07-26",
+          "checkedAt": "2026-10-23"
+        }
+      ],
+      "sampleNote": "2316명은 전체 조사 참여 골퍼 수이며 각 골프장의 평가자 수가 아닙니다. 코스별 표본수 미공개.",
+      "limitations": "NAVER·Google 별점 또는 단순 방문자 평균이 아닙니다. 2026 발표시점의 조사평가이며 실시간 상태를 보장하지 않습니다. 회원제·대중제의 원 발표 순위는 별도입니다. 동일 2026 종합점수끼리만 수치 비교하며 2025·1인후기·다른 척도와 혼합하지 않습니다.",
+      "exportAllowed": false
+    },
+    {
+      "id": "osm:way/1213008164",
+      "name": "웰링턴CC",
+      "verified": true,
+      "group": "mk-2026-1000",
+      "score": 825.84,
+      "maxScore": 1000,
+      "year": 2026,
+      "provider": "매일경제·한국리서치",
+      "sourceUrl": "https://m.mk.co.kr/amp/12054631",
+      "publishedAt": "2026-05-21",
+      "checkedAt": "2026-10-23",
+      "reasons": [
+        "캐디서비스 86.56점",
+        "운영시설 84.92점"
+      ],
+      "reasonScope": null,
+      "category": "회원제",
+      "categoryNationalRank": 4,
+      "method": "구력 1년 이상·연간 국내 라운드 10회 이상 조건의 이용경험 심층 설문. 만족도·코스·안전·시설·식사·직원·캐디·편의·미관 등 10항목에 가중치를 적용한 1000점 평가.",
+      "methodSources": [
+        {
+          "url": "https://m.mk.co.kr/amp/12121129",
+          "title": "그린피·카트비 부담에 … 골퍼 절반 이상 불만",
+          "publishedAt": "2026-08-07",
+          "checkedAt": "2026-10-23"
+        },
+        {
+          "url": "https://m.mk.co.kr/amp/12107756",
+          "title": "골퍼의 선택 더 값져…명품 골프장 자부심",
+          "publishedAt": "2026-07-26",
+          "checkedAt": "2026-10-23"
+        }
+      ],
+      "sampleNote": "2316명은 전체 조사 참여 골퍼 수이며 각 골프장의 평가자 수가 아닙니다. 코스별 표본수 미공개.",
+      "limitations": "NAVER·Google 별점 또는 단순 방문자 평균이 아닙니다. 2026 발표시점의 조사평가이며 실시간 상태를 보장하지 않습니다. 회원제·대중제의 원 발표 순위는 별도입니다. 동일 2026 종합점수끼리만 수치 비교하며 2025·1인후기·다른 척도와 혼합하지 않습니다.",
+      "exportAllowed": false
+    },
+    {
+      "id": "osm:way/378243761",
+      "name": "화산CC",
+      "verified": true,
+      "group": "mk-2026-1000",
+      "score": 822.48,
+      "maxScore": 1000,
+      "year": 2026,
+      "provider": "매일경제·한국리서치",
+      "sourceUrl": "https://m.mk.co.kr/amp/12054631",
+      "publishedAt": "2026-05-21",
+      "checkedAt": "2026-10-23",
+      "reasons": [
+        "직원서비스 85.48점·전국 1위",
+        "수도권 회원제 2위"
+      ],
+      "reasonScope": null,
+      "category": "회원제",
+      "categoryNationalRank": 5,
+      "method": "구력 1년 이상·연간 국내 라운드 10회 이상 조건의 이용경험 심층 설문. 만족도·코스·안전·시설·식사·직원·캐디·편의·미관 등 10항목에 가중치를 적용한 1000점 평가.",
+      "methodSources": [
+        {
+          "url": "https://m.mk.co.kr/amp/12121129",
+          "title": "그린피·카트비 부담에 … 골퍼 절반 이상 불만",
+          "publishedAt": "2026-08-07",
+          "checkedAt": "2026-10-23"
+        },
+        {
+          "url": "https://m.mk.co.kr/amp/12107756",
+          "title": "골퍼의 선택 더 값져…명품 골프장 자부심",
+          "publishedAt": "2026-07-26",
+          "checkedAt": "2026-10-23"
+        }
+      ],
+      "sampleNote": "2316명은 전체 조사 참여 골퍼 수이며 각 골프장의 평가자 수가 아닙니다. 코스별 표본수 미공개.",
+      "limitations": "NAVER·Google 별점 또는 단순 방문자 평균이 아닙니다. 2026 발표시점의 조사평가이며 실시간 상태를 보장하지 않습니다. 회원제·대중제의 원 발표 순위는 별도입니다. 동일 2026 종합점수끼리만 수치 비교하며 2025·1인후기·다른 척도와 혼합하지 않습니다.",
+      "exportAllowed": false
+    },
+    {
+      "id": "osm:way/524204553",
+      "name": "남촌CC",
+      "verified": true,
+      "group": "mk-2026-1000",
+      "score": 821.78,
+      "maxScore": 1000,
+      "year": 2026,
+      "provider": "매일경제·한국리서치",
+      "sourceUrl": "https://m.mk.co.kr/amp/12054631",
+      "publishedAt": "2026-05-21",
+      "checkedAt": "2026-10-23",
+      "reasons": [
+        "수도권 회원제 3위",
+        "상위 5곳 공통 코스 만족도 80점대"
+      ],
+      "reasonScope": "두 번째 이유는 남촌 단독 세부점수가 아닌 기사에 명시된 수도권 상위5곳 공통 특성.",
+      "category": "회원제",
+      "categoryNationalRank": 6,
+      "method": "구력 1년 이상·연간 국내 라운드 10회 이상 조건의 이용경험 심층 설문. 만족도·코스·안전·시설·식사·직원·캐디·편의·미관 등 10항목에 가중치를 적용한 1000점 평가.",
+      "methodSources": [
+        {
+          "url": "https://m.mk.co.kr/amp/12121129",
+          "title": "그린피·카트비 부담에 … 골퍼 절반 이상 불만",
+          "publishedAt": "2026-08-07",
+          "checkedAt": "2026-10-23"
+        },
+        {
+          "url": "https://m.mk.co.kr/amp/12107756",
+          "title": "골퍼의 선택 더 값져…명품 골프장 자부심",
+          "publishedAt": "2026-07-26",
+          "checkedAt": "2026-10-23"
+        }
+      ],
+      "sampleNote": "2316명은 전체 조사 참여 골퍼 수이며 각 골프장의 평가자 수가 아닙니다. 코스별 표본수 미공개.",
+      "limitations": "NAVER·Google 별점 또는 단순 방문자 평균이 아닙니다. 2026 발표시점의 조사평가이며 실시간 상태를 보장하지 않습니다. 회원제·대중제의 원 발표 순위는 별도입니다. 동일 2026 종합점수끼리만 수치 비교하며 2025·1인후기·다른 척도와 혼합하지 않습니다.",
+      "exportAllowed": false
+    },
+    {
+      "id": "osm:way/390545752",
+      "name": "파인비치골프링크스",
+      "verified": true,
+      "group": "mk-2026-1000",
+      "score": 806.91,
+      "maxScore": 1000,
+      "year": 2026,
+      "provider": "매일경제·한국리서치",
+      "sourceUrl": "https://m.mk.co.kr/amp/12107756",
+      "publishedAt": "2026-07-26",
+      "checkedAt": "2026-10-23",
+      "reasons": [
+        "대중제 전국 1위",
+        "대중제 유일 종합 800점 이상"
+      ],
+      "reasonScope": null,
+      "category": "대중제",
+      "categoryNationalRank": 1,
+      "method": "구력 1년 이상·연간 국내 라운드 10회 이상 조건의 이용경험 심층 설문. 만족도·코스·안전·시설·식사·직원·캐디·편의·미관 등 10항목에 가중치를 적용한 1000점 평가.",
+      "methodSources": [
+        {
+          "url": "https://m.mk.co.kr/amp/12121129",
+          "title": "그린피·카트비 부담에 … 골퍼 절반 이상 불만",
+          "publishedAt": "2026-08-07",
+          "checkedAt": "2026-10-23"
+        },
+        {
+          "url": "https://m.mk.co.kr/amp/12107756",
+          "title": "골퍼의 선택 더 값져…명품 골프장 자부심",
+          "publishedAt": "2026-07-26",
+          "checkedAt": "2026-10-23"
+        }
+      ],
+      "sampleNote": "2316명은 전체 조사 참여 골퍼 수이며 각 골프장의 평가자 수가 아닙니다. 코스별 표본수 미공개.",
+      "limitations": "NAVER·Google 별점 또는 단순 방문자 평균이 아닙니다. 2026 발표시점의 조사평가이며 실시간 상태를 보장하지 않습니다. 회원제·대중제의 원 발표 순위는 별도입니다. 동일 2026 종합점수끼리만 수치 비교하며 2025·1인후기·다른 척도와 혼합하지 않습니다.",
+      "exportAllowed": false
+    },
+    {
+      "id": "osm:way/631054660",
+      "name": "사우스스프링스CC",
+      "verified": true,
+      "group": "mk-2026-1000",
+      "score": 790.55,
+      "maxScore": 1000,
+      "year": 2026,
+      "provider": "매일경제·한국리서치",
+      "sourceUrl": "https://m.mk.co.kr/amp/12054631",
+      "publishedAt": "2026-05-21",
+      "checkedAt": "2026-10-23",
+      "reasons": [
+        "미관 81.45점",
+        "코스관리 80.36점"
+      ],
+      "reasonScope": null,
+      "category": "대중제",
+      "categoryNationalRank": 4,
+      "method": "구력 1년 이상·연간 국내 라운드 10회 이상 조건의 이용경험 심층 설문. 만족도·코스·안전·시설·식사·직원·캐디·편의·미관 등 10항목에 가중치를 적용한 1000점 평가.",
+      "methodSources": [
+        {
+          "url": "https://m.mk.co.kr/amp/12121129",
+          "title": "그린피·카트비 부담에 … 골퍼 절반 이상 불만",
+          "publishedAt": "2026-08-07",
+          "checkedAt": "2026-10-23"
+        },
+        {
+          "url": "https://m.mk.co.kr/amp/12107756",
+          "title": "골퍼의 선택 더 값져…명품 골프장 자부심",
+          "publishedAt": "2026-07-26",
+          "checkedAt": "2026-10-23"
+        }
+      ],
+      "sampleNote": "2316명은 전체 조사 참여 골퍼 수이며 각 골프장의 평가자 수가 아닙니다. 코스별 표본수 미공개.",
+      "limitations": "NAVER·Google 별점 또는 단순 방문자 평균이 아닙니다. 2026 발표시점의 조사평가이며 실시간 상태를 보장하지 않습니다. 회원제·대중제의 원 발표 순위는 별도입니다. 동일 2026 종합점수끼리만 수치 비교하며 2025·1인후기·다른 척도와 혼합하지 않습니다.",
+      "exportAllowed": false
+    }
+  ]
+}

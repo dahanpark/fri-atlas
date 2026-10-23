@@ -1,1 +1,10 @@
-{"name":"fri-atlas","version":"0.2.0","private":true,"type":"module","scripts":{"test":"node --test tests/core.test.js tests/v2.test.js","start":"node server.mjs"}}
+{
+  "name": "fri-atlas",
+  "version": "0.5.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/core.test.js tests/v2.test.js tests/v5.test.js",
+    "start": "node server.mjs"
+  }
+}

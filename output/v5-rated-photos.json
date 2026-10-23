@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 5,
+  "checkedAt": "2026-10-23",
+  "scope": "2026 MK 평가 상위 골프장 공식 사이트의 실제 이미지 URL 후보 5곳. HTTP200 이미지 응답 및 공식 HTML/CSS 참조 확인. IAB unavailable로 실제 시각 검증은 root 담당자가 완료해야 함.",
+  "courses": [
+    {
+      "id": "osm:relation/9279333",
+      "name": "핀크스 GC",
+      "photos": [{"courseId":"osm:relation/9279333","courseName":"핀크스 GC","url":"https://pinxgc.thepinx.co.kr/img/main-visual-01.65650172.jpg","sourceUrl":"https://pinxgc.thepinx.co.kr/","referenceUrl":"https://pinxgc.thepinx.co.kr/css/app.cf92dece.css","title":"핀크스 골프클럽 공식 메인 전경","author":"SK핀크스","kind":"official_course_image","rights":"공식 사이트 원격 화면참조. 자유 재배포 라이선스 미확인, 출처 표시 및 원본 구도 유지. HTML 이미지 반출 제외.","license":"공식 공개 이미지 / 재배포 권한 미확인","licenseUrl":"https://pinxgc.thepinx.co.kr/","exportAllowed":false,"displayAllowed":false,"courseMatched":true,"renderVerified":false,"httpStatus":200,"contentType":"image/jpeg","checkedAt":"2026-10-23","adoption":"공식 main-visual CSS 참조 및 HTTP200 확인. 시각확인 후 displayAllowed=true 전환 필요."}]
+    },
+    {
+      "id":"osm:way/1213008164",
+      "name":"웰링턴CC",
+      "photos":[{"courseId":"osm:way/1213008164","courseName":"웰링턴CC","url":"https://www.wellingtoncc.co.kr/resource/image/main/bn_main01.png","sourceUrl":"https://www.wellingtoncc.co.kr/index.do","referenceUrl":"https://www.wellingtoncc.co.kr/resource/css/main.css?ver=26092215","title":"웰링턴 공식 메인 배너 이미지","author":"웰링턴 컨트리클럽","kind":"official_course_image","rights":"공식 사이트 원격 화면참조. 자유 재배포 라이선스 미확인, 출처 표시 및 원본 구도 유지. HTML 이미지 반출 제외.","license":"공식 공개 이미지 / 재배포 권한 미확인","licenseUrl":"https://www.wellingtoncc.co.kr/index.do","exportAllowed":false,"displayAllowed":false,"courseMatched":true,"renderVerified":false,"httpStatus":200,"contentType":"image/png","checkedAt":"2026-10-23","adoption":"공식 main.css 배너 참조와 HTTP200 확인. 전경 또는 텍스트배너 여부 시각확인 필수. 시각확인 전 미채택."}],
+      "alternateCandidate":{"url":"https://www.wellingtoncc.co.kr/resource/image/golf/one/hole1_2.png","sourceUrl":"https://www.wellingtoncc.co.kr/golf/one/hole01.do","title":"공식 그리핀코스 1번홀 페이지의 hole1_2 이미지","status":"HTML 참조 확인만. HTTP·시각 확인 미완료"}
+    },
+    {
+      "id":"osm:way/524204553",
+      "name":"남촌CC",
+      "photos":[{"courseId":"osm:way/524204553","courseName":"남촌CC","url":"https://www.namchoncc.co.kr/Content/img/course_img02.jpg","sourceUrl":"https://www.namchoncc.co.kr/","title":"남촌GC 공식 코스디자인 이미지","author":"남촌GC","kind":"official_course_image","rights":"공식 사이트 원격 화면참조. 자유 재배포 라이선스 미확인, 출처 표시 및 원본 구도 유지. HTML 이미지 반출 제외.","license":"공식 공개 이미지 / 재배포 권한 미확인","licenseUrl":"https://www.namchoncc.co.kr/","exportAllowed":false,"displayAllowed":false,"courseMatched":true,"renderVerified":false,"httpStatus":200,"contentType":"image/jpeg","checkedAt":"2026-10-23","adoption":"공식 페이지 alt=코스디자인 참조와 HTTP200 확인. 시각확인 후 displayAllowed=true 전환 필요."}]
+    },
+    {
+      "id":"osm:way/390545752",
+      "name":"파인비치골프링크스",
+      "photos":[{"courseId":"osm:way/390545752","courseName":"파인비치골프링크스","url":"https://www.pinebeachcc.co.kr/images/main/sea_view_1.jpg","sourceUrl":"https://www.pinebeachcc.co.kr/","title":"파인비치 공식 메인 바다 전경","author":"파인비치골프링크스","kind":"official_course_image","rights":"공식 사이트 원격 화면참조. 자유 재배포 라이선스 미확인, 출처 표시 및 원본 구도 유지. HTML 이미지 반출 제외.","license":"공식 공개 이미지 / 재배포 권한 미확인","licenseUrl":"https://www.pinebeachcc.co.kr/","exportAllowed":false,"displayAllowed":false,"courseMatched":true,"renderVerified":false,"httpStatus":200,"contentType":"image/jpeg","checkedAt":"2026-10-23","adoption":"공식 메인 이미지 참조와 HTTP200 확인. 골프장 전경인지 시각확인 후 displayAllowed=true 전환 필요."}]
+    },
+    {
+      "id":"osm:way/631054660",
+      "name":"사우스스프링스CC",
+      "photos":[{"courseId":"osm:way/631054660","courseName":"사우스스프링스CC","url":"https://erpimage.smartscore.kr/smartscore_erp_homepage/kblfg/main/visual.png","sourceUrl":"https://www.sscc.co.kr/","title":"사우스스프링스 공식 메인 visual","author":"사우스스프링스CC / 공식 Smartscore 홈페이지 제공","kind":"official_course_image","rights":"공식 사이트 원격 화면참조. 자유 재배포 라이선스 미확인, 출처 표시 및 원본 구도 유지. HTML 이미지 반출 제외.","license":"공식 공개 이미지 / 재배포 권한 미확인","licenseUrl":"https://www.sscc.co.kr/","exportAllowed":false,"displayAllowed":false,"courseMatched":true,"renderVerified":false,"httpStatus":200,"contentType":"image/png","checkedAt":"2026-10-23","adoption":"공식 홈페이지 title=NO.1 Prestige 사우스스프링스. 동일 HTML visual-wrap 배경 URL 참조와 HTTP200 확인. 시각확인 후 displayAllowed=true 전환 필요."}]
+    }
+  ],
+  "unresolved":[{"id":"osm:way/378243761","name":"화산CC","sourceUrl":"https://www.hwasancc.com/","reason":"공식 사이트 확인. 확보된 erp/clubs/10 이미지 URL은 파비콘·로고일 가능성이 있어 골프장 전경으로 채택하지 않음."}],
+  "rejected":[{"url":"https://pinxgc.thepinx.co.kr/img/main_clubhouse_image03.ba48bfdc.jpg","reason":"CLUB HOUSE 편의시설 이미지로 골프장 전경 매칭 불충분. 공식 main-visual hero로 대체."},{"url":"https://www.sssc.co.kr/","reason":"현재 스타트업 관련 사이트로 리디렉션. 사우스스프링스 공식은 www.sscc.co.kr, 과거 sssc.co.kr 표기는 채택하지 않음."}]
+}

@@ -1,0 +1,1255 @@
+{
+  "schemaVersion": 5,
+  "checkedAt": "2026-10-23T03:30:25.780Z",
+  "provider": "OSRM / FOSSGIS",
+  "sourceUrl": "https://routing.openstreetmap.de/about.html",
+  "origins": {
+    "seoul": {
+      "lat": 37.5665,
+      "lon": 126.978
+    },
+    "busan": {
+      "lat": 35.1796,
+      "lon": 129.0756
+    }
+  },
+  "limitations": "실제 도로 경로 응답 스냅샷. 실시간 교통 미반영. 코스 대표점 도착이며 실제 입구 미검증. 경로 없는 해상 구간은 추정하지 않음.",
+  "courses": [
+    {
+      "id": "osm:relation/5760711",
+      "lat": 35.0988123,
+      "lon": 128.0199661,
+      "checkedAt": "2026-10-23T03:30:14.497Z",
+      "routes": {
+        "seoul": {
+          "verified": true,
+          "mode": "driving",
+          "distanceKm": 344.124,
+          "durationMin": 266.81,
+          "estimated": true,
+          "traffic": false,
+          "provider": "OSRM / FOSSGIS",
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "checkedAt": "2026-10-23T03:30:15.829Z",
+          "destination": {
+            "lat": 35.0988123,
+            "lon": 128.0199661,
+            "method": "source-representative-point"
+          },
+          "snapDistanceMeters": 10.12020743,
+          "warning": null
+        },
+        "busan": {
+          "verified": true,
+          "mode": "driving",
+          "distanceKm": 122.6285,
+          "durationMin": 99.74166666666666,
+          "estimated": true,
+          "traffic": false,
+          "provider": "OSRM / FOSSGIS",
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "checkedAt": "2026-10-23T03:30:15.829Z",
+          "destination": {
+            "lat": 35.0988123,
+            "lon": 128.0199661,
+            "method": "source-representative-point"
+          },
+          "snapDistanceMeters": 10.12020743,
+          "warning": null
+        }
+      }
+    },
+    {
+      "id": "osm:relation/6959924",
+      "lat": 37.3376361,
+      "lon": 126.9417557,
+      "checkedAt": "2026-10-23T03:30:14.497Z",
+      "routes": {
+        "seoul": {
+          "verified": true,
+          "mode": "driving",
+          "distanceKm": 31.3766,
+          "durationMin": 31.873333333333335,
+          "estimated": true,
+          "traffic": false,
+          "provider": "OSRM / FOSSGIS",
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "checkedAt": "2026-10-23T03:30:15.829Z",
+          "destination": {
+            "lat": 37.3376361,
+            "lon": 126.9417557,
+            "method": "source-representative-point"
+          },
+          "snapDistanceMeters": 82.1344253,
+          "warning": null
+        },
+        "busan": {
+          "verified": true,
+          "mode": "driving",
+          "distanceKm": 377.9877,
+          "durationMin": 278.23499999999996,
+          "estimated": true,
+          "traffic": false,
+          "provider": "OSRM / FOSSGIS",
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "checkedAt": "2026-10-23T03:30:15.829Z",
+          "destination": {
+            "lat": 37.3376361,
+            "lon": 126.9417557,
+            "method": "source-representative-point"
+          },
+          "snapDistanceMeters": 82.1344253,
+          "warning": null
+        }
+      }
+    },
+    {
+      "id": "osm:relation/9279333",
+      "lat": 33.311466,
+      "lon": 126.3891304,
+      "checkedAt": "2026-10-23T03:30:14.497Z",
+      "routes": {
+        "seoul": {
+          "verified": true,
+          "mode": "driving",
+          "distanceKm": 571.2606999999999,
+          "durationMin": 529.995,
+          "estimated": true,
+          "traffic": false,
+          "provider": "OSRM / FOSSGIS",
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "checkedAt": "2026-10-23T03:30:15.829Z",
+          "destination": {
+            "lat": 33.311466,
+            "lon": 126.3891304,
+            "method": "source-representative-point"
+          },
+          "snapDistanceMeters": 130.474443,
+          "warning": "제주-본토 차량 경로 · 해상연계/선박운항·대기 별도 확인",
+          "requiresSeaCrossing": true
+        },
+        "busan": {
+          "verified": true,
+          "mode": "driving",
+          "distanceKm": 440.6582,
+          "durationMin": 456.8616666666667,
+          "estimated": true,
+          "traffic": false,
+          "provider": "OSRM / FOSSGIS",
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "checkedAt": "2026-10-23T03:30:15.829Z",
+          "destination": {
+            "lat": 33.311466,
+            "lon": 126.3891304,
+            "method": "source-representative-point"
+          },
+          "snapDistanceMeters": 130.474443,
+          "warning": "제주-본토 차량 경로 · 해상연계/선박운항·대기 별도 확인",
+          "requiresSeaCrossing": true
+        }
+      }
+    },
+    {
+      "id": "osm:relation/15486603",
+      "lat": 35.2628029,
+      "lon": 128.6638659,
+      "checkedAt": "2026-10-23T03:30:14.497Z",
+      "routes": {
+        "seoul": {
+          "verified": true,
+          "mode": "driving",
+          "distanceKm": 359.4257,
+          "durationMin": 276.39500000000004,
+          "estimated": true,
+          "traffic": false,
+          "provider": "OSRM / FOSSGIS",
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "checkedAt": "2026-10-23T03:30:15.829Z",
+          "destination": {
+            "lat": 35.2628029,
+            "lon": 128.6638659,
+            "method": "source-representative-point"
+          },
+          "snapDistanceMeters": 37.02986246,
+          "warning": null
+        },
+        "busan": {
+          "verified": true,
+          "mode": "driving",
+          "distanceKm": 47.8964,
+          "durationMin": 48.248333333333335,
+          "estimated": true,
+          "traffic": false,
+          "provider": "OSRM / FOSSGIS",
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "checkedAt": "2026-10-23T03:30:15.829Z",
+          "destination": {
+            "lat": 35.2628029,
+            "lon": 128.6638659,
+            "method": "source-representative-point"
+          },
+          "snapDistanceMeters": 37.02986246,
+          "warning": null
+        }
+      }
+    },
+    {
+      "id": "osm:way/68913380",
+      "lat": 36.3551573,
+      "lon": 127.294789,
+      "checkedAt": "2026-10-23T03:30:14.497Z",
+      "routes": {
+        "seoul": {
+          "verified": true,
+          "mode": "driving",
+          "distanceKm": 161.8844,
+          "durationMin": 124.775,
+          "estimated": true,
+          "traffic": false,
+          "provider": "OSRM / FOSSGIS",
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "checkedAt": "2026-10-23T03:30:15.829Z",
+          "destination": {
+            "lat": 36.3551573,
+            "lon": 127.294789,
+            "method": "source-representative-point"
+          },
+          "snapDistanceMeters": 207.8066725,
+          "warning": null
+        },
+        "busan": {
+          "verified": true,
+          "mode": "driving",
+          "distanceKm": 272.3829,
+          "durationMin": 206.19666666666666,
+          "estimated": true,
+          "traffic": false,
+          "provider": "OSRM / FOSSGIS",
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "checkedAt": "2026-10-23T03:30:15.829Z",
+          "destination": {
+            "lat": 36.3551573,
+            "lon": 127.294789,
+            "method": "source-representative-point"
+          },
+          "snapDistanceMeters": 207.8066725,
+          "warning": null
+        }
+      }
+    },
+    {
+      "id": "osm:way/130539444",
+      "lat": 35.2729934,
+      "lon": 128.8985781,
+      "checkedAt": "2026-10-23T03:30:14.497Z",
+      "routes": {
+        "seoul": {
+          "verified": true,
+          "mode": "driving",
+          "distanceKm": 369.97229999999996,
+          "durationMin": 284.90166666666664,
+          "estimated": true,
+          "traffic": false,
+          "provider": "OSRM / FOSSGIS",
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "checkedAt": "2026-10-23T03:30:15.829Z",
+          "destination": {
+            "lat": 35.2729934,
+            "lon": 128.8985781,
+            "method": "source-representative-point"
+          },
+          "snapDistanceMeters": 32.15361891,
+          "warning": null
+        },
+        "busan": {
+          "verified": true,
+          "mode": "driving",
+          "distanceKm": 25.872400000000003,
+          "durationMin": 30.05666666666667,
+          "estimated": true,
+          "traffic": false,
+          "provider": "OSRM / FOSSGIS",
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "checkedAt": "2026-10-23T03:30:15.829Z",
+          "destination": {
+            "lat": 35.2729934,
+            "lon": 128.8985781,
+            "method": "source-representative-point"
+          },
+          "snapDistanceMeters": 32.15361891,
+          "warning": null
+        }
+      }
+    },
+    {
+      "id": "osm:way/305670809",
+      "lat": 35.2984846,
+      "lon": 129.0905108,
+      "checkedAt": "2026-10-23T03:30:14.497Z",
+      "routes": {
+        "seoul": {
+          "verified": true,
+          "mode": "driving",
+          "distanceKm": 390.7287,
+          "durationMin": 290.32,
+          "estimated": true,
+          "traffic": false,
+          "provider": "OSRM / FOSSGIS",
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "checkedAt": "2026-10-23T03:30:15.829Z",
+          "destination": {
+            "lat": 35.2984846,
+            "lon": 129.0905108,
+            "method": "source-representative-point"
+          },
+          "snapDistanceMeters": 391.3018664,
+          "warning": null
+        },
+        "busan": {
+          "verified": true,
+          "mode": "driving",
+          "distanceKm": 14.5101,
+          "durationMin": 15.151666666666667,
+          "estimated": true,
+          "traffic": false,
+          "provider": "OSRM / FOSSGIS",
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "checkedAt": "2026-10-23T03:30:15.829Z",
+          "destination": {
+            "lat": 35.2984846,
+            "lon": 129.0905108,
+            "method": "source-representative-point"
+          },
+          "snapDistanceMeters": 391.3018664,
+          "warning": null
+        }
+      }
+    },
+    {
+      "id": "osm:way/306090506",
+      "lat": 35.486492,
+      "lon": 129.1003587,
+      "checkedAt": "2026-10-23T03:30:14.497Z",
+      "routes": {
+        "seoul": {
+          "verified": true,
+          "mode": "driving",
+          "distanceKm": 363.42659999999995,
+          "durationMin": 277.7133333333333,
+          "estimated": true,
+          "traffic": false,
+          "provider": "OSRM / FOSSGIS",
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "checkedAt": "2026-10-23T03:30:15.829Z",
+          "destination": {
+            "lat": 35.486492,
+            "lon": 129.1003587,
+            "method": "source-representative-point"
+          },
+          "snapDistanceMeters": 12.38165051,
+          "warning": null
+        },
+        "busan": {
+          "verified": true,
+          "mode": "driving",
+          "distanceKm": 41.188300000000005,
+          "durationMin": 39.64666666666667,
+          "estimated": true,
+          "traffic": false,
+          "provider": "OSRM / FOSSGIS",
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "checkedAt": "2026-10-23T03:30:15.829Z",
+          "destination": {
+            "lat": 35.486492,
+            "lon": 129.1003587,
+            "method": "source-representative-point"
+          },
+          "snapDistanceMeters": 12.38165051,
+          "warning": null
+        }
+      }
+    },
+    {
+      "id": "osm:way/369959208",
+      "lat": 33.5202625,
+      "lon": 126.7378363,
+      "checkedAt": "2026-10-23T03:30:14.497Z",
+      "routes": {
+        "seoul": {
+          "verified": true,
+          "mode": "driving",
+          "distanceKm": 559.5361,
+          "durationMin": 519.1516666666666,
+          "estimated": true,
+          "traffic": false,
+          "provider": "OSRM / FOSSGIS",
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "checkedAt": "2026-10-23T03:30:15.829Z",
+          "destination": {
+            "lat": 33.5202625,
+            "lon": 126.7378363,
+            "method": "source-representative-point"
+          },
+          "snapDistanceMeters": 664.6464182,
+          "warning": "제주-본토 차량 경로 · 해상연계/선박운항·대기 별도 확인",
+          "requiresSeaCrossing": true
+        },
+        "busan": {
+          "verified": true,
+          "mode": "driving",
+          "distanceKm": 428.93359999999996,
+          "durationMin": 446.0183333333333,
+          "estimated": true,
+          "traffic": false,
+          "provider": "OSRM / FOSSGIS",
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "checkedAt": "2026-10-23T03:30:15.829Z",
+          "destination": {
+            "lat": 33.5202625,
+            "lon": 126.7378363,
+            "method": "source-representative-point"
+          },
+          "snapDistanceMeters": 664.6464182,
+          "warning": "제주-본토 차량 경로 · 해상연계/선박운항·대기 별도 확인",
+          "requiresSeaCrossing": true
+        }
+      }
+    },
+    {
+      "id": "osm:way/378243761",
+      "lat": 37.1526441,
+      "lon": 127.2351628,
+      "checkedAt": "2026-10-23T03:30:14.497Z",
+      "routes": {
+        "seoul": {
+          "verified": true,
+          "mode": "driving",
+          "distanceKm": 64.2302,
+          "durationMin": 61.06333333333334,
+          "estimated": true,
+          "traffic": false,
+          "provider": "OSRM / FOSSGIS",
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "checkedAt": "2026-10-23T03:30:15.829Z",
+          "destination": {
+            "lat": 37.1526441,
+            "lon": 127.2351628,
+            "method": "source-representative-point"
+          },
+          "snapDistanceMeters": 263.2507713,
+          "warning": null
+        },
+        "busan": {
+          "verified": true,
+          "mode": "driving",
+          "distanceKm": 357.3166,
+          "durationMin": 271.0833333333333,
+          "estimated": true,
+          "traffic": false,
+          "provider": "OSRM / FOSSGIS",
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "checkedAt": "2026-10-23T03:30:15.829Z",
+          "destination": {
+            "lat": 37.1526441,
+            "lon": 127.2351628,
+            "method": "source-representative-point"
+          },
+          "snapDistanceMeters": 263.2507713,
+          "warning": null
+        }
+      }
+    },
+    {
+      "id": "osm:way/378243930",
+      "lat": 37.15951,
+      "lon": 127.1334168,
+      "checkedAt": "2026-10-23T03:30:14.497Z",
+      "routes": {
+        "seoul": {
+          "verified": true,
+          "mode": "driving",
+          "distanceKm": 54.519,
+          "durationMin": 50.085,
+          "estimated": true,
+          "traffic": false,
+          "provider": "OSRM / FOSSGIS",
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "checkedAt": "2026-10-23T03:30:15.829Z",
+          "destination": {
+            "lat": 37.15951,
+            "lon": 127.1334168,
+            "method": "source-representative-point"
+          },
+          "snapDistanceMeters": 324.5056933,
+          "warning": null
+        },
+        "busan": {
+          "verified": true,
+          "mode": "driving",
+          "distanceKm": 351.3205,
+          "durationMin": 265.4,
+          "estimated": true,
+          "traffic": false,
+          "provider": "OSRM / FOSSGIS",
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "checkedAt": "2026-10-23T03:30:15.829Z",
+          "destination": {
+            "lat": 37.15951,
+            "lon": 127.1334168,
+            "method": "source-representative-point"
+          },
+          "snapDistanceMeters": 324.5056933,
+          "warning": null
+        }
+      }
+    },
+    {
+      "id": "osm:way/380278946",
+      "lat": 37.0812533,
+      "lon": 127.5740232,
+      "checkedAt": "2026-10-23T03:30:14.497Z",
+      "routes": {
+        "seoul": {
+          "verified": true,
+          "mode": "driving",
+          "distanceKm": 95.6235,
+          "durationMin": 85.485,
+          "estimated": true,
+          "traffic": false,
+          "provider": "OSRM / FOSSGIS",
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "checkedAt": "2026-10-23T03:30:15.829Z",
+          "destination": {
+            "lat": 37.0812533,
+            "lon": 127.5740232,
+            "method": "source-representative-point"
+          },
+          "snapDistanceMeters": 129.0856913,
+          "warning": null
+        },
+        "busan": {
+          "verified": true,
+          "mode": "driving",
+          "distanceKm": 312.76840000000004,
+          "durationMin": 236.41333333333333,
+          "estimated": true,
+          "traffic": false,
+          "provider": "OSRM / FOSSGIS",
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "checkedAt": "2026-10-23T03:30:15.829Z",
+          "destination": {
+            "lat": 37.0812533,
+            "lon": 127.5740232,
+            "method": "source-representative-point"
+          },
+          "snapDistanceMeters": 129.0856913,
+          "warning": null
+        }
+      }
+    },
+    {
+      "id": "osm:way/386241143",
+      "lat": 36.1571708,
+      "lon": 128.4502232,
+      "checkedAt": "2026-10-23T03:30:14.497Z",
+      "routes": {
+        "seoul": {
+          "verified": true,
+          "mode": "driving",
+          "distanceKm": 243.67970000000003,
+          "durationMin": 190.15166666666667,
+          "estimated": true,
+          "traffic": false,
+          "provider": "OSRM / FOSSGIS",
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "checkedAt": "2026-10-23T03:30:15.829Z",
+          "destination": {
+            "lat": 36.1571708,
+            "lon": 128.4502232,
+            "method": "source-representative-point"
+          },
+          "snapDistanceMeters": 483.6028166,
+          "warning": null
+        },
+        "busan": {
+          "verified": true,
+          "mode": "driving",
+          "distanceKm": 156.6237,
+          "durationMin": 122.89166666666667,
+          "estimated": true,
+          "traffic": false,
+          "provider": "OSRM / FOSSGIS",
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "checkedAt": "2026-10-23T03:30:15.829Z",
+          "destination": {
+            "lat": 36.1571708,
+            "lon": 128.4502232,
+            "method": "source-representative-point"
+          },
+          "snapDistanceMeters": 483.6028166,
+          "warning": null
+        }
+      }
+    },
+    {
+      "id": "osm:way/389269626",
+      "lat": 37.2558467,
+      "lon": 127.2812092,
+      "checkedAt": "2026-10-23T03:30:14.497Z",
+      "routes": {
+        "seoul": {
+          "verified": true,
+          "mode": "driving",
+          "distanceKm": 55.455,
+          "durationMin": 51.53666666666666,
+          "estimated": true,
+          "traffic": false,
+          "provider": "OSRM / FOSSGIS",
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "checkedAt": "2026-10-23T03:30:15.829Z",
+          "destination": {
+            "lat": 37.2558467,
+            "lon": 127.2812092,
+            "method": "source-representative-point"
+          },
+          "snapDistanceMeters": 108.9687321,
+          "warning": null
+        },
+        "busan": {
+          "verified": true,
+          "mode": "driving",
+          "distanceKm": 349.3676,
+          "durationMin": 260.00166666666667,
+          "estimated": true,
+          "traffic": false,
+          "provider": "OSRM / FOSSGIS",
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "checkedAt": "2026-10-23T03:30:15.829Z",
+          "destination": {
+            "lat": 37.2558467,
+            "lon": 127.2812092,
+            "method": "source-representative-point"
+          },
+          "snapDistanceMeters": 108.9687321,
+          "warning": null
+        }
+      }
+    },
+    {
+      "id": "osm:way/389428315",
+      "lat": 37.3298609,
+      "lon": 127.2983174,
+      "checkedAt": "2026-10-23T03:30:14.497Z",
+      "routes": {
+        "seoul": {
+          "verified": true,
+          "mode": "driving",
+          "distanceKm": 55.215199999999996,
+          "durationMin": 53.32333333333334,
+          "estimated": true,
+          "traffic": false,
+          "provider": "OSRM / FOSSGIS",
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "checkedAt": "2026-10-23T03:30:15.829Z",
+          "destination": {
+            "lat": 37.3298609,
+            "lon": 127.2983174,
+            "method": "source-representative-point"
+          },
+          "snapDistanceMeters": 11.68035216,
+          "warning": null
+        },
+        "busan": {
+          "verified": true,
+          "mode": "driving",
+          "distanceKm": 352.36359999999996,
+          "durationMin": 262.345,
+          "estimated": true,
+          "traffic": false,
+          "provider": "OSRM / FOSSGIS",
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "checkedAt": "2026-10-23T03:30:15.829Z",
+          "destination": {
+            "lat": 37.3298609,
+            "lon": 127.2983174,
+            "method": "source-representative-point"
+          },
+          "snapDistanceMeters": 11.68035216,
+          "warning": null
+        }
+      }
+    },
+    {
+      "id": "osm:way/390545752",
+      "lat": 34.6978968,
+      "lon": 126.2650636,
+      "checkedAt": "2026-10-23T03:30:14.497Z",
+      "routes": {
+        "seoul": {
+          "verified": true,
+          "mode": "driving",
+          "distanceKm": 383.95640000000003,
+          "durationMin": 289.23833333333334,
+          "estimated": true,
+          "traffic": false,
+          "provider": "OSRM / FOSSGIS",
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "checkedAt": "2026-10-23T03:30:15.829Z",
+          "destination": {
+            "lat": 34.6978968,
+            "lon": 126.2650636,
+            "method": "source-representative-point"
+          },
+          "snapDistanceMeters": 225.6445833,
+          "warning": null
+        },
+        "busan": {
+          "verified": true,
+          "mode": "driving",
+          "distanceKm": 315.6078,
+          "durationMin": 251.69666666666666,
+          "estimated": true,
+          "traffic": false,
+          "provider": "OSRM / FOSSGIS",
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "checkedAt": "2026-10-23T03:30:15.829Z",
+          "destination": {
+            "lat": 34.6978968,
+            "lon": 126.2650636,
+            "method": "source-representative-point"
+          },
+          "snapDistanceMeters": 225.6445833,
+          "warning": null
+        }
+      }
+    },
+    {
+      "id": "osm:way/398942362",
+      "lat": 37.3591533,
+      "lon": 127.4323692,
+      "checkedAt": "2026-10-23T03:30:14.497Z",
+      "routes": {
+        "seoul": {
+          "verified": true,
+          "mode": "driving",
+          "distanceKm": 57.6654,
+          "durationMin": 54.46666666666667,
+          "estimated": true,
+          "traffic": false,
+          "provider": "OSRM / FOSSGIS",
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "checkedAt": "2026-10-23T03:30:15.829Z",
+          "destination": {
+            "lat": 37.3591533,
+            "lon": 127.4323692,
+            "method": "source-representative-point"
+          },
+          "snapDistanceMeters": 363.6751864,
+          "warning": null
+        },
+        "busan": {
+          "verified": true,
+          "mode": "driving",
+          "distanceKm": 347.89590000000004,
+          "durationMin": 256.845,
+          "estimated": true,
+          "traffic": false,
+          "provider": "OSRM / FOSSGIS",
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "checkedAt": "2026-10-23T03:30:15.829Z",
+          "destination": {
+            "lat": 37.3591533,
+            "lon": 127.4323692,
+            "method": "source-representative-point"
+          },
+          "snapDistanceMeters": 363.6751864,
+          "warning": null
+        }
+      }
+    },
+    {
+      "id": "osm:way/524204553",
+      "lat": 37.35153,
+      "lon": 127.418898,
+      "checkedAt": "2026-10-23T03:30:14.497Z",
+      "routes": {
+        "seoul": {
+          "verified": true,
+          "mode": "driving",
+          "distanceKm": 57.6118,
+          "durationMin": 54.41166666666666,
+          "estimated": true,
+          "traffic": false,
+          "provider": "OSRM / FOSSGIS",
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "checkedAt": "2026-10-23T03:30:15.829Z",
+          "destination": {
+            "lat": 37.35153,
+            "lon": 127.418898,
+            "method": "source-representative-point"
+          },
+          "snapDistanceMeters": 158.504599,
+          "warning": null
+        },
+        "busan": {
+          "verified": true,
+          "mode": "driving",
+          "distanceKm": 347.84229999999997,
+          "durationMin": 256.79,
+          "estimated": true,
+          "traffic": false,
+          "provider": "OSRM / FOSSGIS",
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "checkedAt": "2026-10-23T03:30:15.829Z",
+          "destination": {
+            "lat": 37.35153,
+            "lon": 127.418898,
+            "method": "source-representative-point"
+          },
+          "snapDistanceMeters": 158.504599,
+          "warning": null
+        }
+      }
+    },
+    {
+      "id": "osm:way/524449266",
+      "lat": 37.8005144,
+      "lon": 127.3044398,
+      "checkedAt": "2026-10-23T03:30:14.497Z",
+      "routes": {
+        "seoul": {
+          "verified": true,
+          "mode": "driving",
+          "distanceKm": 52.3125,
+          "durationMin": 57.14333333333333,
+          "estimated": true,
+          "traffic": false,
+          "provider": "OSRM / FOSSGIS",
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "checkedAt": "2026-10-23T03:30:15.829Z",
+          "destination": {
+            "lat": 37.8005144,
+            "lon": 127.3044398,
+            "method": "source-representative-point"
+          },
+          "snapDistanceMeters": 347.4636844,
+          "warning": null
+        },
+        "busan": {
+          "verified": true,
+          "mode": "driving",
+          "distanceKm": 392.943,
+          "durationMin": 292.025,
+          "estimated": true,
+          "traffic": false,
+          "provider": "OSRM / FOSSGIS",
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "checkedAt": "2026-10-23T03:30:15.829Z",
+          "destination": {
+            "lat": 37.8005144,
+            "lon": 127.3044398,
+            "method": "source-representative-point"
+          },
+          "snapDistanceMeters": 347.4636844,
+          "warning": null
+        }
+      }
+    },
+    {
+      "id": "osm:way/524471443",
+      "lat": 37.6204532,
+      "lon": 127.4817408,
+      "checkedAt": "2026-10-23T03:30:14.497Z",
+      "routes": {
+        "seoul": {
+          "verified": true,
+          "mode": "driving",
+          "distanceKm": 62.9036,
+          "durationMin": 59.23166666666667,
+          "estimated": true,
+          "traffic": false,
+          "provider": "OSRM / FOSSGIS",
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "checkedAt": "2026-10-23T03:30:15.830Z",
+          "destination": {
+            "lat": 37.6204532,
+            "lon": 127.4817408,
+            "method": "source-representative-point"
+          },
+          "snapDistanceMeters": 127.0194551,
+          "warning": null
+        },
+        "busan": {
+          "verified": true,
+          "mode": "driving",
+          "distanceKm": 370.3302,
+          "durationMin": 274.775,
+          "estimated": true,
+          "traffic": false,
+          "provider": "OSRM / FOSSGIS",
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "checkedAt": "2026-10-23T03:30:15.830Z",
+          "destination": {
+            "lat": 37.6204532,
+            "lon": 127.4817408,
+            "method": "source-representative-point"
+          },
+          "snapDistanceMeters": 127.0194551,
+          "warning": null
+        }
+      }
+    },
+    {
+      "id": "osm:way/524730161",
+      "lat": 37.4032152,
+      "lon": 127.4215091,
+      "checkedAt": "2026-10-23T03:30:15.832Z",
+      "routes": {
+        "seoul": {
+          "verified": true,
+          "mode": "driving",
+          "distanceKm": 58.3476,
+          "durationMin": 58.28333333333333,
+          "estimated": true,
+          "traffic": false,
+          "provider": "OSRM / FOSSGIS",
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "checkedAt": "2026-10-23T03:30:25.779Z",
+          "destination": {
+            "lat": 37.4032152,
+            "lon": 127.4215091,
+            "method": "source-representative-point"
+          },
+          "snapDistanceMeters": 48.39767304,
+          "warning": null
+        },
+        "busan": {
+          "verified": true,
+          "mode": "driving",
+          "distanceKm": 348.57820000000004,
+          "durationMin": 260.6616666666667,
+          "estimated": true,
+          "traffic": false,
+          "provider": "OSRM / FOSSGIS",
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "checkedAt": "2026-10-23T03:30:25.779Z",
+          "destination": {
+            "lat": 37.4032152,
+            "lon": 127.4215091,
+            "method": "source-representative-point"
+          },
+          "snapDistanceMeters": 48.39767304,
+          "warning": null
+        }
+      }
+    },
+    {
+      "id": "osm:way/546212852",
+      "lat": 37.2970935,
+      "lon": 127.7359403,
+      "checkedAt": "2026-10-23T03:30:15.832Z",
+      "routes": {
+        "seoul": {
+          "verified": true,
+          "mode": "driving",
+          "distanceKm": 93.3956,
+          "durationMin": 83.08666666666666,
+          "estimated": true,
+          "traffic": false,
+          "provider": "OSRM / FOSSGIS",
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "checkedAt": "2026-10-23T03:30:25.779Z",
+          "destination": {
+            "lat": 37.2970935,
+            "lon": 127.7359403,
+            "method": "source-representative-point"
+          },
+          "snapDistanceMeters": 376.127229,
+          "warning": null
+        },
+        "busan": {
+          "verified": true,
+          "mode": "driving",
+          "distanceKm": 336.3615,
+          "durationMin": 247.505,
+          "estimated": true,
+          "traffic": false,
+          "provider": "OSRM / FOSSGIS",
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "checkedAt": "2026-10-23T03:30:25.779Z",
+          "destination": {
+            "lat": 37.2970935,
+            "lon": 127.7359403,
+            "method": "source-representative-point"
+          },
+          "snapDistanceMeters": 376.127229,
+          "warning": null
+        }
+      }
+    },
+    {
+      "id": "osm:way/631054660",
+      "lat": 37.1758334,
+      "lon": 127.4568196,
+      "checkedAt": "2026-10-23T03:30:15.832Z",
+      "routes": {
+        "seoul": {
+          "verified": true,
+          "mode": "driving",
+          "distanceKm": 73.3342,
+          "durationMin": 62.19666666666667,
+          "estimated": true,
+          "traffic": false,
+          "provider": "OSRM / FOSSGIS",
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "checkedAt": "2026-10-23T03:30:25.779Z",
+          "destination": {
+            "lat": 37.1758334,
+            "lon": 127.4568196,
+            "method": "source-representative-point"
+          },
+          "snapDistanceMeters": 219.9924878,
+          "warning": null
+        },
+        "busan": {
+          "verified": true,
+          "mode": "driving",
+          "distanceKm": 325.98629999999997,
+          "durationMin": 246.97833333333335,
+          "estimated": true,
+          "traffic": false,
+          "provider": "OSRM / FOSSGIS",
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "checkedAt": "2026-10-23T03:30:25.779Z",
+          "destination": {
+            "lat": 37.1758334,
+            "lon": 127.4568196,
+            "method": "source-representative-point"
+          },
+          "snapDistanceMeters": 219.9924878,
+          "warning": null
+        }
+      }
+    },
+    {
+      "id": "osm:way/642736074",
+      "lat": 37.61344,
+      "lon": 127.28962,
+      "checkedAt": "2026-10-23T03:30:15.832Z",
+      "routes": {
+        "seoul": {
+          "verified": true,
+          "mode": "driving",
+          "distanceKm": 33.7332,
+          "durationMin": 38.975,
+          "estimated": true,
+          "traffic": false,
+          "provider": "OSRM / FOSSGIS",
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "checkedAt": "2026-10-23T03:30:25.779Z",
+          "destination": {
+            "lat": 37.61344,
+            "lon": 127.28962,
+            "method": "official-site-map-point"
+          },
+          "snapDistanceMeters": 102.6432335,
+          "warning": null
+        },
+        "busan": {
+          "verified": true,
+          "mode": "driving",
+          "distanceKm": 370.6372,
+          "durationMin": 275.2916666666667,
+          "estimated": true,
+          "traffic": false,
+          "provider": "OSRM / FOSSGIS",
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "checkedAt": "2026-10-23T03:30:25.779Z",
+          "destination": {
+            "lat": 37.61344,
+            "lon": 127.28962,
+            "method": "official-site-map-point"
+          },
+          "snapDistanceMeters": 102.6432335,
+          "warning": null
+        }
+      }
+    },
+    {
+      "id": "osm:way/669452632",
+      "lat": 35.3559824,
+      "lon": 128.1831133,
+      "checkedAt": "2026-10-23T03:30:15.832Z",
+      "routes": {
+        "seoul": {
+          "verified": true,
+          "mode": "driving",
+          "distanceKm": 342.1653,
+          "durationMin": 272.4483333333333,
+          "estimated": true,
+          "traffic": false,
+          "provider": "OSRM / FOSSGIS",
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "checkedAt": "2026-10-23T03:30:25.779Z",
+          "destination": {
+            "lat": 35.3559824,
+            "lon": 128.1831133,
+            "method": "source-representative-point"
+          },
+          "snapDistanceMeters": 263.0564221,
+          "warning": null
+        },
+        "busan": {
+          "verified": true,
+          "mode": "driving",
+          "distanceKm": 99.382,
+          "durationMin": 89.84333333333333,
+          "estimated": true,
+          "traffic": false,
+          "provider": "OSRM / FOSSGIS",
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "checkedAt": "2026-10-23T03:30:25.779Z",
+          "destination": {
+            "lat": 35.3559824,
+            "lon": 128.1831133,
+            "method": "source-representative-point"
+          },
+          "snapDistanceMeters": 263.0564221,
+          "warning": null
+        }
+      }
+    },
+    {
+      "id": "osm:way/1029215407",
+      "lat": 34.8372982,
+      "lon": 128.0716461,
+      "checkedAt": "2026-10-23T03:30:15.832Z",
+      "routes": {
+        "seoul": {
+          "verified": true,
+          "mode": "driving",
+          "distanceKm": 371.3165,
+          "durationMin": 292.06,
+          "estimated": true,
+          "traffic": false,
+          "provider": "OSRM / FOSSGIS",
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "checkedAt": "2026-10-23T03:30:25.779Z",
+          "destination": {
+            "lat": 34.8372982,
+            "lon": 128.0716461,
+            "method": "source-representative-point"
+          },
+          "snapDistanceMeters": 47.53897666,
+          "warning": null
+        },
+        "busan": {
+          "verified": true,
+          "mode": "driving",
+          "distanceKm": 149.821,
+          "durationMin": 124.99166666666666,
+          "estimated": true,
+          "traffic": false,
+          "provider": "OSRM / FOSSGIS",
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "checkedAt": "2026-10-23T03:30:25.779Z",
+          "destination": {
+            "lat": 34.8372982,
+            "lon": 128.0716461,
+            "method": "source-representative-point"
+          },
+          "snapDistanceMeters": 47.53897666,
+          "warning": null
+        }
+      }
+    },
+    {
+      "id": "osm:way/1213004518",
+      "lat": 37.1294139,
+      "lon": 127.6974245,
+      "checkedAt": "2026-10-23T03:30:15.832Z",
+      "routes": {
+        "seoul": {
+          "verified": true,
+          "mode": "driving",
+          "distanceKm": 98.0869,
+          "durationMin": 84.34166666666667,
+          "estimated": true,
+          "traffic": false,
+          "provider": "OSRM / FOSSGIS",
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "checkedAt": "2026-10-23T03:30:25.779Z",
+          "destination": {
+            "lat": 37.1294139,
+            "lon": 127.6974245,
+            "method": "source-representative-point"
+          },
+          "snapDistanceMeters": 212.4887132,
+          "warning": null
+        },
+        "busan": {
+          "verified": true,
+          "mode": "driving",
+          "distanceKm": 304.41970000000003,
+          "durationMin": 225.715,
+          "estimated": true,
+          "traffic": false,
+          "provider": "OSRM / FOSSGIS",
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "checkedAt": "2026-10-23T03:30:25.779Z",
+          "destination": {
+            "lat": 37.1294139,
+            "lon": 127.6974245,
+            "method": "source-representative-point"
+          },
+          "snapDistanceMeters": 212.4887132,
+          "warning": null
+        }
+      }
+    },
+    {
+      "id": "osm:way/1213008164",
+      "lat": 37.1663357,
+      "lon": 127.4242148,
+      "checkedAt": "2026-10-23T03:30:15.832Z",
+      "routes": {
+        "seoul": {
+          "verified": true,
+          "mode": "driving",
+          "distanceKm": 73.5413,
+          "durationMin": 61.33833333333334,
+          "estimated": true,
+          "traffic": false,
+          "provider": "OSRM / FOSSGIS",
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "checkedAt": "2026-10-23T03:30:25.779Z",
+          "destination": {
+            "lat": 37.1663357,
+            "lon": 127.4242148,
+            "method": "source-representative-point"
+          },
+          "snapDistanceMeters": 515.812472,
+          "warning": null
+        },
+        "busan": {
+          "verified": true,
+          "mode": "driving",
+          "distanceKm": 339.2296,
+          "durationMin": 248.57166666666666,
+          "estimated": true,
+          "traffic": false,
+          "provider": "OSRM / FOSSGIS",
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "checkedAt": "2026-10-23T03:30:25.779Z",
+          "destination": {
+            "lat": 37.1663357,
+            "lon": 127.4242148,
+            "method": "source-representative-point"
+          },
+          "snapDistanceMeters": 515.812472,
+          "warning": null
+        }
+      }
+    }
+  ]
+}

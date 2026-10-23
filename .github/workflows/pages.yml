@@ -25,7 +25,7 @@ jobs:
         run: |
           for file in dist/*.js; do node --check "$file"; done
           node --check server.mjs
-      - run: node --test tests/core.test.js tests/v2.test.js
+      - run: node --test tests/core.test.js tests/v2.test.js tests/v5.test.js
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

@@ -1,0 +1,60 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {applyCoursePolicy,isEligibleCourse} from '../dist/course-policy.js';
+import {normalizeNational,enrichOfficial,applyEnrichment,mergeById,sortedCourses,evaluationFor} from '../dist/data.js';
+import {applyV3} from '../dist/enrichment-v3.js';
+import {routeText,card,compareTable,exportReport} from '../dist/views.js';
+const read=f=>JSON.parse(fs.readFileSync(new URL('../dist/'+f,import.meta.url)));
+const registry=read('regular-courses.json'),ratings=read('ratings.json'),cache=read('road-cache.json');
+const base=enrichOfficial(normalizeNational(read('courses-kr.json')),read('catalog.json'),read('explicit-matches.json'));
+const all=applyV3(applyEnrichment(mergeById(base.items,base.unmatched),read('enrichment-v2.json')),read('v3-fees.json'),read('v3-course-stories.json'));
+const eligible=applyCoursePolicy(all,registry,ratings,cache);
+
+test('public pool includes only evidenced eighteen-plus regular courses, excluding practice, unknown and nine holes',()=>{
+ assert.equal(eligible.length,registry.courses.length);
+ assert.ok(eligible.every(isEligibleCourse));
+ assert.ok(eligible.every(c=>c.eligibility.holes>=18&&['회원제','대중제','비회원제'].includes(c.eligibility.courseType)));
+ assert.ok(!eligible.some(c=>c.id==='osm:way/645101379'||/연습장|스크린|파크골프/.test(c.name)));
+ const unknown={id:'unknown',lat:36,lon:127,tags:{leisure:'golf_course'},name:'Unknown CC'};
+ assert.deepEqual(applyCoursePolicy([unknown],registry),[]);
+ const record={id:'unknown',verified:true,holes:9,courseType:'대중제',sourceUrl:'https://example.com/official'};
+ assert.deepEqual(applyCoursePolicy([unknown],{courses:[record]}),[]);
+ assert.deepEqual(applyCoursePolicy([unknown],{courses:[{...record,holes:18,verified:false}]}),[]);
+});
+test('current evaluation uses only the verified 2026 common 1000-point survey and sorts missing values last',()=>{
+ const scored=eligible.filter(evaluationFor);assert.equal(scored.length,6);
+ assert.equal(sortedCourses(eligible,'evaluation')[0].name,'핀크스 GC');
+ const order=sortedCourses(scored,'recommended').map(c=>c.evaluation.score);
+ assert.deepEqual(order,[829.21,825.84,822.48,821.78,806.91,790.55]);
+ const bad={...scored[0],evaluation:{...scored[0].evaluation,group:'mk-2025-1000',score:999}};
+ assert.equal(evaluationFor(bad),null);
+ assert.equal(evaluationFor({...bad,evaluation:{...bad.evaluation,group:'mk-2026-1000',score:1001}}),null);
+ assert.ok(card(scored.find(c=>c.id==='osm:way/1213008164'),0).includes('825.84 / 1,000'));
+ assert.ok(card(scored.find(c=>c.id==='osm:way/1213008164'),0).includes('캐디서비스'));
+ assert.ok(compareTable(scored.slice(0,2),'',4).includes('동일 조사 평가'));
+});
+test('real cached roads attach by exact identity and coordinate and supply both origins in cards and comparison',()=>{
+ assert.equal(cache.courses.length,eligible.length);
+ assert.ok(eligible.every(c=>c.routes?.seoul?.verified&&c.routes?.busan?.verified));
+ const c=eligible.find(c=>c.id==='osm:way/389428315');
+ assert.ok(routeText(c,'seoul').includes('55 km'));
+ assert.ok(routeText(c,'busan').includes('352 km'));
+ assert.ok(routeText(c,'seoul').includes('0시간 53분'));
+ assert.ok(compareTable([c],'',4).includes('4시간 22분'));
+ const moved={...c,lat:c.lat+.01,routes:undefined};
+ assert.equal(applyCoursePolicy([moved],registry,ratings,cache)[0].routes,undefined);
+ assert.equal(routeText({...c,routes:{},routeState:'failed'},'seoul'),'도로 조회 실패 · 재시도');
+ assert.equal(routeText({...c,routes:{},routeState:'unavailable'},'busan'),'도로 경로 없음');
+ assert.ok(routeText(eligible.find(c=>c.id==='osm:relation/9279333'),'seoul').includes('해상연계 확인'));
+});
+test('time rounding never renders sixty minutes and restricted evaluation scores stay out of standalone HTML',()=>{
+ const c=eligible.find(evaluationFor);
+ const rounding={...c,routes:{seoul:{verified:true,mode:'driving',distanceKm:1,durationMin:59.9}}};
+ assert.equal(routeText(rounding,'seoul'),'약 1 km · 1시간 0분');
+ const html=exportReport({bounds:{s:33,w:124,n:39,e:132},time:'now',items:[c]},[c],{compareCourses:[c]});
+ assert.ok(!html.includes(c.evaluation.score.toFixed(2)));
+ assert.ok(html.includes('점수 반출 제외'));
+ assert.ok(html.includes(c.evaluation.sourceUrl));
+ assert.ok(html.includes('실제 입구 미검증'));
+});

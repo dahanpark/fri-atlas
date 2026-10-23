@@ -25,3 +25,5 @@
 .course-thumb{width:112px;height:80px}.course-thumb img{display:block}.image-fallback{font-size:22px}.course-thumb .image-fallback::after{content:"사진 미확보";display:block;font-size:9px}@media(max-width:720px){.course-thumb{width:88px;height:70px}}
 
 .planning-panel .compare-scroll th:first-child{width:110px}.planning-panel .compare-scroll td,.planning-panel .compare-scroll th:not(:first-child){min-width:170px}
+
+.evaluation-badge{margin:12px 0 5px;padding:10px 12px;border:1px solid #aac6ad;background:linear-gradient(120deg,#deedce,#e3f2ed);font-size:12px}.evaluation-badge b{font-size:15px;margin-right:8px}.evaluation-badge span,.evaluation-badge small{display:block;margin-top:3px}.evaluation-badge small{font-size:10px}

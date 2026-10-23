@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 5,
+  "checkedAt": "2026-10-23",
+  "scope": "2026년 MK 대한민국 골프장 평가 공개 발표에서 숫자를 직접 확인한 6코스. 전국 전체 평가표 수집 완료 아님.",
+  "groups": [
+    {
+      "id": "mk-korea-golf-2026-total",
+      "provider": "매일경제·한국리서치",
+      "label": "2026 MK 이용경험 조사평가",
+      "kind": "golfer_experience_survey_weighted_total",
+      "edition": 4,
+      "year": 2026,
+      "metric": "종합평가",
+      "scaleMin": 0,
+      "scaleMax": 1000,
+      "higherIsBetter": true,
+      "sampleCount": null,
+      "surveyTotalSampleCount": 2316,
+      "sampleScope": "2316명은 전체 조사 참여 골퍼 수이며 각 골프장의 평가자 수가 아닙니다. 코스별 표본수 미공개.",
+      "method": "구력 1년 이상·연간 국내 라운드 10회 이상 조건의 이용경험 심층 설문. 만족도·코스·안전·시설·식사·직원·캐디·편의·미관 등 10항목에 가중치를 적용한 1000점 평가.",
+      "methodSources": [
+        {"url":"https://m.mk.co.kr/amp/12121129","title":"그린피·카트비 부담에 … 골퍼 절반 이상 불만","publishedAt":"2026-08-07","checkedAt":"2026-10-23"},
+        {"url":"https://m.mk.co.kr/amp/12107756","title":"골퍼의 선택 더 값져…명품 골프장 자부심","publishedAt":"2026-07-26","checkedAt":"2026-10-23"}
+      ],
+      "limitations": "NAVER·Google 별점 또는 단순 방문자 평균이 아닙니다. 2026 발표시점의 조사평가이며 실시간 상태를 보장하지 않습니다. 회원제·대중제의 원 발표 순위는 별도입니다. 동일 2026 종합점수끼리만 수치 비교하며 2025·1인후기·다른 척도와 혼합하지 않습니다.",
+      "exportAllowed": false
+    }
+  ],
+  "courses": [
+    {
+      "id": "osm:relation/9279333",
+      "name": "핀크스 GC",
+      "matching": {"catalogName":"핀크스 GC","region":"제주","basis":"기존 전국 OSM 객체명·제주위치와 발표 코스 일치. 회원제 평가 범위.","lat":33.311466,"lon":126.3891304},
+      "ratings": [{"groupId":"mk-korea-golf-2026-total","value":829.21,"scaleMax":1000,"year":2026,"category":"회원제","categoryNationalRank":1,"sampleCount":null,"surveyTotalSampleCount":2316,"publishedAt":"2026-05-25","provider":"매일경제·한국리서치","sourceUrl":"https://m.mk.co.kr/amp/12057033","sourceTitle":"제주 풍광과 예술의 조화 … 핀크스, 최고회원제 우뚝","sourceReadScope":"공개 기사 본문 직접 확인","reasons":["미관 86.07점·운영시설 85점","코스관리 83.21점"],"componentScaleMax":100,"checkedAt":"2026-10-23","exportAllowed":false}]
+    },
+    {
+      "id":"osm:way/1213008164",
+      "name":"웰링턴CC",
+      "matching":{"catalogName":"웰링턴CC","region":"경기 이천","basis":"기존 전국 객체와 수도권 평가기사의 이천 웰링턴CC 명칭·지역 일치. 기사 27홀.","lat":37.1663357,"lon":127.4242148},
+      "ratings":[{"groupId":"mk-korea-golf-2026-total","value":825.84,"scaleMax":1000,"year":2026,"category":"회원제","categoryNationalRank":4,"sampleCount":null,"surveyTotalSampleCount":2316,"publishedAt":"2026-05-21","provider":"매일경제·한국리서치","sourceUrl":"https://m.mk.co.kr/amp/12054631","sourceTitle":"웰링턴 서비스·사우스스프링스 코스에 엄지 척","sourceReadScope":"공개 기사 본문 직접 확인","reasons":["캐디서비스 86.56점","운영시설 84.92점"],"componentScaleMax":100,"checkedAt":"2026-10-23","exportAllowed":false}]
+    },
+    {
+      "id":"osm:way/378243761",
+      "name":"화산CC",
+      "matching":{"catalogName":"화산CC","region":"경기 용인","basis":"기존 전국 객체와 발표기사의 경기 용인 화산CC 명칭·지역 일치.","lat":37.1526441,"lon":127.2351628},
+      "ratings":[{"groupId":"mk-korea-golf-2026-total","value":822.48,"scaleMax":1000,"year":2026,"category":"회원제","categoryNationalRank":5,"sampleCount":null,"surveyTotalSampleCount":2316,"publishedAt":"2026-05-21","provider":"매일경제·한국리서치","sourceUrl":"https://m.mk.co.kr/amp/12054631","sourceTitle":"웰링턴 서비스·사우스스프링스 코스에 엄지 척","sourceReadScope":"공개 기사 본문 직접 확인","reasons":["직원서비스 85.48점·전국 1위","수도권 회원제 2위"],"componentScaleMax":100,"checkedAt":"2026-10-23","exportAllowed":false}]
+    },
+    {
+      "id":"osm:way/524204553",
+      "name":"남촌CC",
+      "matching":{"catalogName":"남촌CC","region":"경기 광주","basis":"기존 전국 객체와 발표기사의 경기 광주 남촌GC 명칭·지역 일치. CC/GC 표기 차이 보존.","lat":37.35153,"lon":127.418898},
+      "ratings":[{"groupId":"mk-korea-golf-2026-total","value":821.78,"scaleMax":1000,"year":2026,"category":"회원제","categoryNationalRank":6,"sampleCount":null,"surveyTotalSampleCount":2316,"publishedAt":"2026-05-21","provider":"매일경제·한국리서치","sourceUrl":"https://m.mk.co.kr/amp/12054631","sourceTitle":"웰링턴 서비스·사우스스프링스 코스에 엄지 척","sourceReadScope":"공개 기사 본문 직접 확인","reasons":["수도권 회원제 3위","상위 5곳 공통 코스 만족도 80점대"],"reasonScope":"두 번째 이유는 남촌 단독 세부점수가 아닌 기사에 명시된 수도권 상위5곳 공통 특성.","componentScaleMax":100,"checkedAt":"2026-10-23","exportAllowed":false}]
+    },
+    {
+      "id":"osm:way/390545752",
+      "name":"파인비치골프링크스",
+      "matching":{"catalogName":"파인비치골프링크스","region":"전남 해남","basis":"기존 전국 객체와 발표코스명·해남 위치 일치.","lat":34.6978968,"lon":126.2650636},
+      "ratings":[{"groupId":"mk-korea-golf-2026-total","value":806.91,"scaleMax":1000,"year":2026,"category":"대중제","categoryNationalRank":1,"sampleCount":null,"surveyTotalSampleCount":2316,"publishedAt":"2026-07-26","provider":"매일경제·한국리서치","sourceUrl":"https://m.mk.co.kr/amp/12107756","sourceTitle":"골퍼의 선택 더 값져…명품 골프장 자부심","sourceReadScope":"공개 기사 본문 직접 확인","reasons":["대중제 전국 1위","대중제 유일 종합 800점 이상"],"checkedAt":"2026-10-23","exportAllowed":false}]
+    },
+    {
+      "id":"osm:way/631054660",
+      "name":"사우스스프링스CC",
+      "matching":{"catalogName":"사우스스프링스CC","region":"경기 이천","basis":"기존 전국 객체와 발표기사의 경기 이천 코스명·지역 일치.","lat":37.1758334,"lon":127.4568196},
+      "ratings":[{"groupId":"mk-korea-golf-2026-total","value":790.55,"scaleMax":1000,"year":2026,"category":"대중제","categoryNationalRank":4,"sampleCount":null,"surveyTotalSampleCount":2316,"publishedAt":"2026-05-21","provider":"매일경제·한국리서치","sourceUrl":"https://m.mk.co.kr/amp/12054631","sourceTitle":"웰링턴 서비스·사우스스프링스 코스에 엄지 척","sourceReadScope":"공개 기사 본문 직접 확인","reasons":["미관 81.45점","코스관리 80.36점"],"componentScaleMax":100,"checkedAt":"2026-10-23","exportAllowed":false}]
+    }
+  ]
+}
